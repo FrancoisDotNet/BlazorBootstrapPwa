@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Blazor.Hosting;
 using Microsoft.AspNetCore.Components.Builder;
 
-namespace BlazorPwa
+namespace BlazorBootstrapPwa
 {
     class Program
     {
