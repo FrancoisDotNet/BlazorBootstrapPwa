@@ -7,4 +7,4 @@
 ## Structure
 - `BlazorWasm` project directory :
   - `wwwroot` Web static files directory : `css` style directory
-  - `saas` : `scss` subdirectory and the *`body.scss`* and *`style.scss`* files
+  - `sass` : `scss` subdirectory and the *`body.scss`* and *`style.scss`* files
