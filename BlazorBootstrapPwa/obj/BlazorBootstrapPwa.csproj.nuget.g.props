@@ -20,5 +20,6 @@
     <PkgMicrosoft_AspNetCore_Blazor_Mono Condition=" '$(PkgMicrosoft_AspNetCore_Blazor_Mono)' == '' ">C:\Users\franc\.nuget\packages\microsoft.aspnetcore.blazor.mono\3.1.0-preview4.19578.1</PkgMicrosoft_AspNetCore_Blazor_Mono>
     <PkgMicrosoft_AspNetCore_Blazor_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Blazor_DevServer)' == '' ">C:\Users\franc\.nuget\packages\microsoft.aspnetcore.blazor.devserver\3.1.0-preview4.19579.2</PkgMicrosoft_AspNetCore_Blazor_DevServer>
     <PkgMicrosoft_AspNetCore_Blazor_Build Condition=" '$(PkgMicrosoft_AspNetCore_Blazor_Build)' == '' ">C:\Users\franc\.nuget\packages\microsoft.aspnetcore.blazor.build\3.1.0-preview4.19579.2</PkgMicrosoft_AspNetCore_Blazor_Build>
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\franc\.nuget\packages\jquery\3.0.0</PkgjQuery>
   </PropertyGroup>
 </Project>
