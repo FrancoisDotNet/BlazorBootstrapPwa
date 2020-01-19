@@ -1,8 +1,7 @@
-# Blazor Progressive Web App with Bootstrap UI
+# Blazor Progressive Web App with Bootstrap UX
 
 ## Prerequisites
-1. [Blazor PWA undestanding](https://github.com/FrancoisDotNet/BlazorWasm)
-3. [Lighthouse PWA Tool Chromium Extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+1. [Blazor PWA undestanding](https://github.com/FrancoisDotNet/BlazorPwa)
 
 ## Structure
 - `BlazorWasm` project directory :
