@@ -73,3 +73,12 @@ C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\obj\Debug\netstandard
 C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\obj\Debug\netstandard2.1\blazor\linker.descriptor.xml
 C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\obj\Debug\netstandard2.1\blazor\blazor.boot.json
 C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\compilerconfig.json
+C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\sass\bootstrap-4.4.1\.eslintrc.json
+C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\sass\bootstrap-4.4.1\build\.eslintrc.json
+C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\sass\bootstrap-4.4.1\bundlesize.config.json
+C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\sass\bootstrap-4.4.1\composer.json
+C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\sass\bootstrap-4.4.1\js\tests\unit\.eslintrc.json
+C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\sass\bootstrap-4.4.1\package-lock.json
+C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\sass\bootstrap-4.4.1\package.json
+C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\sass\bootstrap-4.4.1\site\.eslintrc.json
+C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\sass\bootstrap-4.4.1\site\docs\4.4\assets\img\favicons\manifest.json
