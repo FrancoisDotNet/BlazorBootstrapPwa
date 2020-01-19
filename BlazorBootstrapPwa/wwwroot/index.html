@@ -7,8 +7,17 @@
         <meta name="theme-color" content="#343a40">
         <link href="manifest.json" rel="manifest">
         <link rel="apple-touch-icon" href="icon-192.png">
+        <link href="style.css" rel="stylesheet" />
         <script src="_framework/blazor.webassembly.js"></script>
         <script>navigator.serviceWorker.register('./serviceworker.js');</script>
     </head>
-    <body>Loading...</body>
+    <body>
+        <div>
+            <h1>Just a moment</h1>
+            <hr>
+            <div class="spinner-grow"></div>
+            <div class="spinner-grow"></div>
+            <div class="spinner-grow"></div>
+        </div>
+    </body>
 </html>

@@ -1,0 +1,15 @@
+body {
+    @extend .row;
+    @extend .bg-dark;
+    margin:0;
+}
+
+body > div {
+    @extend .alert;
+    @extend .alert-primary;
+    @extend .modal-dialog;
+}
+
+body > div > div {
+    @extend .spinner-grow;
+}

@@ -72,3 +72,4 @@ C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\obj\Debug\netstandard
 C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\obj\Debug\netstandard2.1\BlazorBootstrapPwa.pdb
 C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\obj\Debug\netstandard2.1\blazor\linker.descriptor.xml
 C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\obj\Debug\netstandard2.1\blazor\blazor.boot.json
+C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\compilerconfig.json
