@@ -1,4 +1,4 @@
-# Blazor Progressive Web App
+# Blazor Bootstrap Progressive Web App
 
 ## Prerequisites
 1. [Blazor PWA undestanding](https://github.com/FrancoisDotNet/BlazorWasm)
