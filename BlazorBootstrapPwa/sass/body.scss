@@ -1,7 +1,6 @@
 body {
-    @extend .row;
     @extend .bg-dark;
-    margin:0;
+    @extend .container;
 }
 
 body > div {

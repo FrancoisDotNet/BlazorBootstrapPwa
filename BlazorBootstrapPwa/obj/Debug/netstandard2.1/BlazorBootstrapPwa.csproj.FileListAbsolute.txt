@@ -4,7 +4,6 @@ C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\obj\Debug\netstandard
 C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\obj\Debug\netstandard2.1\BlazorBootstrapPwa.RazorComponent.input.cache
 C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\obj\Debug\netstandard2.1\RazorDeclaration\Body.razor.g.cs
 C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\BlazorBootstrapPwa.blazor.config
-C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\compilerconfig.json
 C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\BlazorBootstrapPwa.dll
 C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\BlazorBootstrapPwa.pdb
 C:\Users\franc\Repos\BlazorBootstrapPwa\BlazorBootstrapPwa\bin\Debug\netstandard2.1\dist\_framework\_bin\BlazorBootstrapPwa.dll

@@ -8,13 +8,18 @@
     <PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="3.1.0-preview4.19579.2" PrivateAssets="all"/>
     <PackageReference Include="Microsoft.AspNetCore.Blazor.HttpClient" Version="3.1.0-preview4.19579.2"/>
     <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.1.0-preview4.19579.2" PrivateAssets="all"/>
-    <DistDir Include="$(PublishDir)$(BlazorPublishDistDir)**\*"/>
   </ItemGroup>
-  <Target Name="GitHub" AfterTargets="AfterPublish">
+  <Target Name="SaasBuild" AfterTargets="PreBuild">
+    <Exec Command="sass saas\html.scss wwwroot\css\style.css"/>
+  </Target>
+  <Target Name="GithubPublish" AfterTargets="AfterPublish">
+    <ItemGroup>
+      <DistDir Include="$(PublishDir)$(BlazorPublishDistDir)**\*"/>
+    </ItemGroup>
     <Copy SourceFiles="@(DistDir)" DestinationFolder="..\docs\%(RecursiveDir)" SkipUnchangedFiles="true"/>
     <RemoveDir Directories="obj\;bin\" Condition=" '$(Configuration)' == 'Release' "/>
-    <Exec Command="git add -A"/>
-    <Exec Command="git commit -a"/>
-    <Exec Command="git push origin"/>
+    <Exec Command="git add -A
+      git commit -a
+      git push origin"/>
   </Target>
 </Project>
