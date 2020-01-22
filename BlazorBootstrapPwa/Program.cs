@@ -9,7 +9,7 @@ namespace BlazorBootstrapPwa
     
         class Startup
         {
-            public void Configure(IComponentsApplicationBuilder b) => b.AddComponent<Body>("ody");
+            public void Configure(IComponentsApplicationBuilder b) => b.AddComponent<Body>("");
         }
     }
 }
