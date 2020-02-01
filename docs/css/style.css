@@ -9883,6 +9883,9 @@ img {
   width: 10em;
   height: 5em;
   color: green;
+}
+
+svg {
   fill: currentColor;
 }
 
