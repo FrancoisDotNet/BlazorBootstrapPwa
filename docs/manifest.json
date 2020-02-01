@@ -1,6 +1,6 @@
 {
-  "name": "Blazor Progressive Web App",
-  "short_name": "BlazorPwa",
+  "name": "Budget App",
+  "short_name": "Budget",
   "icons": [
     {
       "src": "icon-192.png",
