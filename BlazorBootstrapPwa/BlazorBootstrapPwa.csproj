@@ -14,7 +14,8 @@
       <DistDir Include="$(PublishDir)$(BlazorPublishDistDir)**\*"/>
     </ItemGroup>
     <Copy SourceFiles="@(DistDir)" DestinationFolder="..\docs\%(RecursiveDir)" SkipUnchangedFiles="true"/>
-    <Exec Command="sass scss\html.scss ..\docs\wwwroot\css\style.css"/>
+    <Exec Command="
+      sass scss\html.scss ..\docs\css\style.css"/>
     <Exec Command="git add -A
       git commit -a
       git push origin"/>
