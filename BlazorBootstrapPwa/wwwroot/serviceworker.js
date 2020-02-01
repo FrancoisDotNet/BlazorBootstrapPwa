@@ -9,8 +9,8 @@ var filesToCache = [
     './icons/icon-192.png',
     './icons/icon-512.png',
     //icons/bootstrap
-/*     './icons/bootstrap/alarm-fill.svg',
-    './icons/bootstrap/alarm.svg',
+    './icons/bootstrap/alarm-fill.svg',
+    /*'./icons/bootstrap/alarm.svg',
     './icons/bootstrap/alert-circle-fill.svg',
     './icons/bootstrap/alert-circle.svg',
     './icons/bootstrap/alert-octagon-fill.svg',
