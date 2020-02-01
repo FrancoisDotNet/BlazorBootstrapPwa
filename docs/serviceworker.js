@@ -272,7 +272,7 @@ var filesToCache = [
     './icons/bootstrap/table.svg',
     './icons/bootstrap/tablet-landscape.svg',
     './icons/bootstrap/tablet.svg',
-    /*'./icons/bootstrap/tag-fill.svg',
+    './icons/bootstrap/tag-fill.svg',
     './icons/bootstrap/tag.svg',
     './icons/bootstrap/terminal-fill.svg',
     './icons/bootstrap/terminal.svg',
@@ -287,7 +287,7 @@ var filesToCache = [
     './icons/bootstrap/toggle-on.svg',
     './icons/bootstrap/toggles.svg',
     './icons/bootstrap/tools.svg',
-    './icons/bootstrap/trash-fill.svg',
+    /*'./icons/bootstrap/trash-fill.svg',
     './icons/bootstrap/trash.svg',
     './icons/bootstrap/triangle-fill.svg',
     './icons/bootstrap/triangle-half.svg',
@@ -317,13 +317,13 @@ var filesToCache = [
     './icons/bootstrap/wifi.svg',
     './icons/bootstrap/window.svg',
     './icons/bootstrap/wrench.svg',
-    './icons/bootstrap/x-circle-fill.svg',
+    './icons/bootstrap/x-circle-fill.svg',*/
     './icons/bootstrap/x-circle.svg',
     './icons/bootstrap/x-octagon-fill.svg',
     './icons/bootstrap/x-octagon.svg',
     './icons/bootstrap/x-square-fill.svg',
     './icons/bootstrap/x-square.svg',
-    './icons/bootstrap/x.svg',*/
+    './icons/bootstrap/x.svg',
     //css
     './css/style.css',
     './css/style.css.map',   
