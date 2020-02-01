@@ -9688,7 +9688,7 @@ a.text-secondary:hover, a.text-secondary:focus {
   color: #494f54 !important;
 }
 
-.text-success, body {
+.text-success {
   color: #28a745 !important;
 }
 
