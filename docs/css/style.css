@@ -9882,15 +9882,10 @@ body {
 img {
   width: 10em;
   height: 10em;
-  color: green;
 }
 
-.filter-green {
-  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
-}
-
-svg {
-  fill: currentColor;
+.filter-green, img {
+  filter: invert(44%) sepia(100%) saturate(368%) hue-rotate(82deg) brightness(98%) contrast(88%);
 }
 
 html {
