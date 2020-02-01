@@ -7,9 +7,9 @@ var filesToCache = [
     './index.html',
     './manifest.json',
     './serviceworker.js',
-    //css
-    './css/bootstrap.css',
-    './css/bootstrap.min.css',   
+    //wwwroot/css
+    './wwwroot/css/style.css',
+    './wwwroot/css/style.css.map',   
     //_framework
     './_framework/blazor.boot.json',
     './_framework/blazor.webassembly.js',

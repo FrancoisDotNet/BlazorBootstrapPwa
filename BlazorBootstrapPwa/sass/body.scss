@@ -1,14 +1,10 @@
 body {
     @extend .bg-dark;
     @extend .container;
-}
+    @extend .text-light;
+    @extend .d-flex;
+    @extend .justify-content-center;
+    @extend .align-items-center;
 
-body > div {
-    @extend .alert;
-    @extend .alert-primary;
-    @extend .modal-dialog;
-}
-
-body > div > div {
-    @extend .spinner-grow;
+    height: 100%;
 }
