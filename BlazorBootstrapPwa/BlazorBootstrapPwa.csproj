@@ -10,7 +10,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.1.0-preview4.19579.2" PrivateAssets="all"/>
   </ItemGroup>
   <Target Name="SaasBuild" AfterTargets="PreBuild">
-    <Exec Command="sass saas\html.scss wwwroot\css\style.css"/>
+    <Exec Command="sass sass\html.scss wwwroot\css\style.css"/>
   </Target>
   <Target Name="GithubPublish" AfterTargets="AfterPublish">
     <ItemGroup>
