@@ -9,7 +9,7 @@ var filesToCache = [
     './icons/icon-192.png',
     './icons/icon-512.png',
     //icons/bootstrap
-    './icons/bootstrap/alarm-fill.svg',
+/*     './icons/bootstrap/alarm-fill.svg',
     './icons/bootstrap/alarm.svg',
     './icons/bootstrap/alert-circle-fill.svg',
     './icons/bootstrap/alert-circle.svg',
@@ -323,7 +323,7 @@ var filesToCache = [
     './icons/bootstrap/x-octagon.svg',
     './icons/bootstrap/x-square-fill.svg',
     './icons/bootstrap/x-square.svg',
-    './icons/bootstrap/x.svg',
+    './icons/bootstrap/x.svg', */
     //css
     './css/style.css',
     './css/style.css.map',   
