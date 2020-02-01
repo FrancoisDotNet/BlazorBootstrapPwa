@@ -1,4 +1,4 @@
-var cacheName = 'blazor-pwa';
+var cacheName = 'budget-app';
 var filesToCache = [
     //wwwroot
     './.nojekyll',
