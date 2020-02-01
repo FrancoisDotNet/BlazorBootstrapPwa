@@ -9879,6 +9879,13 @@ body {
   height: 100%;
 }
 
+img {
+  width: 10em;
+  height: 5em;
+  color: green;
+  fill: currentColor;
+}
+
 html {
   height: 100%;
 }
