@@ -97,7 +97,7 @@ var filesToCache = [
     './icons/bootstrap/chat-fill.svg',
     './icons/bootstrap/chat.svg',
     './icons/bootstrap/check-box.svg',
-    /*'./icons/bootstrap/check-circle.svg',
+    './icons/bootstrap/check-circle.svg',
     './icons/bootstrap/check.svg',
     './icons/bootstrap/chevron-compact-down.svg',
     './icons/bootstrap/chevron-compact-left.svg',
@@ -323,7 +323,7 @@ var filesToCache = [
     './icons/bootstrap/x-octagon.svg',
     './icons/bootstrap/x-square-fill.svg',
     './icons/bootstrap/x-square.svg',
-    './icons/bootstrap/x.svg', */
+    './icons/bootstrap/x.svg',
     //css
     './css/style.css',
     './css/style.css.map',   
