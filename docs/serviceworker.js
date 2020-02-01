@@ -197,7 +197,7 @@ var filesToCache = [
     './icons/bootstrap/justify.svg',
     './icons/bootstrap/kanban-fill.svg',
     './icons/bootstrap/kanban.svg',
-    /*'./icons/bootstrap/laptop.svg',
+    './icons/bootstrap/laptop.svg',
     './icons/bootstrap/layout-sidebar-reverse.svg',
     './icons/bootstrap/layout-sidebar.svg',
     './icons/bootstrap/layout-split.svg',
@@ -247,7 +247,7 @@ var filesToCache = [
     './icons/bootstrap/shield-lock.svg',
     './icons/bootstrap/shield-shaded.svg',
     './icons/bootstrap/shield.svg',
-    './icons/bootstrap/shift-fill.svg',
+    /*'./icons/bootstrap/shift-fill.svg',
     './icons/bootstrap/shift.svg',
     './icons/bootstrap/skip-backward-fill.svg',
     './icons/bootstrap/skip-backward.svg',
@@ -296,7 +296,7 @@ var filesToCache = [
     './icons/bootstrap/tv-fill.svg',
     './icons/bootstrap/tv.svg',
     './icons/bootstrap/type-bold.svg',
-    './icons/bootstrap/type-h.svg',*/
+    './icons/bootstrap/type-h.svg',
     './icons/bootstrap/type-h.svg',
     './icons/bootstrap/type-h.svg',
     './icons/bootstrap/type-italic.svg',
@@ -323,7 +323,7 @@ var filesToCache = [
     './icons/bootstrap/x-octagon.svg',
     './icons/bootstrap/x-square-fill.svg',
     './icons/bootstrap/x-square.svg',
-    './icons/bootstrap/x.svg',
+    './icons/bootstrap/x.svg',*/
     //css
     './css/style.css',
     './css/style.css.map',   
