@@ -4,6 +4,7 @@ var filesToCache = [
     './.nojekyll',
     './icon-192.png',
     './icon-512.png',
+    './icon.svg',
     './index.html',
     './manifest.json',
     './serviceworker.js',
