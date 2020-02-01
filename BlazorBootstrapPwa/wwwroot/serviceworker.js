@@ -10,7 +10,7 @@ var filesToCache = [
     './icons/icon-512.png',
     //icons/bootstrap
     './icons/bootstrap/alarm-fill.svg',
-    /*'./icons/bootstrap/alarm.svg',
+    './icons/bootstrap/alarm.svg',
     './icons/bootstrap/alert-circle-fill.svg',
     './icons/bootstrap/alert-circle.svg',
     './icons/bootstrap/alert-octagon-fill.svg',
@@ -97,7 +97,7 @@ var filesToCache = [
     './icons/bootstrap/chat-fill.svg',
     './icons/bootstrap/chat.svg',
     './icons/bootstrap/check-box.svg',
-    './icons/bootstrap/check-circle.svg',
+    /*'./icons/bootstrap/check-circle.svg',
     './icons/bootstrap/check.svg',
     './icons/bootstrap/chevron-compact-down.svg',
     './icons/bootstrap/chevron-compact-left.svg',
