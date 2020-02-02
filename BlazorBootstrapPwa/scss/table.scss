@@ -38,6 +38,6 @@ tbody {
     @extend .btn-success;
 }
 
-.btn-block {
+div + .btn-block {
     margin-top: 0;
 }

@@ -15821,7 +15821,7 @@ tbody {
   height: 100%;
 }
 
-.btn-block, div {
+div + .btn-block, div + div {
   margin-top: 0;
 }
 
