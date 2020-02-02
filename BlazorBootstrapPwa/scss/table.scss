@@ -11,8 +11,17 @@ div {
 
 button {
     @extend .btn;
-    @extend .btn-light;
     @extend .fas;
+}
 
-    line-height: 1;
+.fa-edit, .fa-cog {
+    @extend .btn-light;
+}
+
+.fa-times {
+    @extend .btn-danger;
+}
+
+.fa-check {
+    @extend .btn-success;
 }

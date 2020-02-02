@@ -2495,33 +2495,33 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
 }
 
-.btn-success {
+.btn-success, .fa-check {
   color: #fff;
   background-color: #28a745;
   border-color: #28a745;
 }
-.btn-success:hover {
+.btn-success:hover, .fa-check:hover {
   color: #fff;
   background-color: #218838;
   border-color: #1e7e34;
 }
-.btn-success:focus, .btn-success.focus {
+.btn-success:focus, .fa-check:focus, .btn-success.focus, .focus.fa-check {
   color: #fff;
   background-color: #218838;
   border-color: #1e7e34;
   box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
 }
-.btn-success.disabled, .btn-success:disabled {
+.btn-success.disabled, .disabled.fa-check, .btn-success:disabled, .fa-check:disabled {
   color: #fff;
   background-color: #28a745;
   border-color: #28a745;
 }
-.btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, .show > .btn-success.dropdown-toggle {
+.btn-success:not(:disabled):not(.disabled):active, .fa-check:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, .fa-check:not(:disabled):not(.disabled).active, .show > .btn-success.dropdown-toggle, .show > .dropdown-toggle.fa-check {
   color: #fff;
   background-color: #1e7e34;
   border-color: #1c7430;
 }
-.btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus, .show > .btn-success.dropdown-toggle:focus {
+.btn-success:not(:disabled):not(.disabled):active:focus, .fa-check:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus, .fa-check:not(:disabled):not(.disabled).active:focus, .show > .btn-success.dropdown-toggle:focus, .show > .dropdown-toggle.fa-check:focus {
   box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
 }
 
@@ -2585,63 +2585,63 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
 }
 
-.btn-danger {
+.btn-danger, .fa-times {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
 }
-.btn-danger:hover {
+.btn-danger:hover, .fa-times:hover {
   color: #fff;
   background-color: #c82333;
   border-color: #bd2130;
 }
-.btn-danger:focus, .btn-danger.focus {
+.btn-danger:focus, .fa-times:focus, .btn-danger.focus, .focus.fa-times {
   color: #fff;
   background-color: #c82333;
   border-color: #bd2130;
   box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
 }
-.btn-danger.disabled, .btn-danger:disabled {
+.btn-danger.disabled, .disabled.fa-times, .btn-danger:disabled, .fa-times:disabled {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
 }
-.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active, .show > .btn-danger.dropdown-toggle {
+.btn-danger:not(:disabled):not(.disabled):active, .fa-times:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active, .fa-times:not(:disabled):not(.disabled).active, .show > .btn-danger.dropdown-toggle, .show > .dropdown-toggle.fa-times {
   color: #fff;
   background-color: #bd2130;
   border-color: #b21f2d;
 }
-.btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus, .show > .btn-danger.dropdown-toggle:focus {
+.btn-danger:not(:disabled):not(.disabled):active:focus, .fa-times:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus, .fa-times:not(:disabled):not(.disabled).active:focus, .show > .btn-danger.dropdown-toggle:focus, .show > .dropdown-toggle.fa-times:focus {
   box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
 }
 
-.btn-light, button {
+.btn-light, .fa-edit, .fa-cog {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
-.btn-light:hover, button:hover {
+.btn-light:hover, .fa-edit:hover, .fa-cog:hover {
   color: #212529;
   background-color: #e2e6ea;
   border-color: #dae0e5;
 }
-.btn-light:focus, button:focus, .btn-light.focus, button.focus {
+.btn-light:focus, .fa-edit:focus, .fa-cog:focus, .btn-light.focus, .focus.fa-edit, .focus.fa-cog {
   color: #212529;
   background-color: #e2e6ea;
   border-color: #dae0e5;
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
 }
-.btn-light.disabled, button.disabled, .btn-light:disabled, button:disabled {
+.btn-light.disabled, .disabled.fa-edit, .disabled.fa-cog, .btn-light:disabled, .fa-edit:disabled, .fa-cog:disabled {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
-.btn-light:not(:disabled):not(.disabled):active, button:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, button:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle, .show > button.dropdown-toggle {
+.btn-light:not(:disabled):not(.disabled):active, .fa-edit:not(:disabled):not(.disabled):active, .fa-cog:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, .fa-edit:not(:disabled):not(.disabled).active, .fa-cog:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle, .show > .dropdown-toggle.fa-edit, .show > .dropdown-toggle.fa-cog {
   color: #212529;
   background-color: #dae0e5;
   border-color: #d3d9df;
 }
-.btn-light:not(:disabled):not(.disabled):active:focus, button:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, button:not(:disabled):not(.disabled).active:focus, .show > .btn-light.dropdown-toggle:focus, .show > button.dropdown-toggle:focus {
+.btn-light:not(:disabled):not(.disabled):active:focus, .fa-edit:not(:disabled):not(.disabled):active:focus, .fa-cog:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, .fa-edit:not(:disabled):not(.disabled).active:focus, .fa-cog:not(:disabled):not(.disabled).active:focus, .show > .btn-light.dropdown-toggle:focus, .show > .dropdown-toggle.fa-edit:focus, .show > .dropdown-toggle.fa-cog:focus {
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
 }
 
@@ -15804,10 +15804,6 @@ button {
   font-weight: 900;
 }
 
-button {
-  line-height: 1;
-}
-
 html {
   height: 100%;
 }
@@ -15817,7 +15813,7 @@ body {
 }
 
 figure {
-  size: 100rem;
+  font-size: 100rem;
   height: 100%;
 }
 

@@ -9,16 +9,10 @@
                     <button type="button" @onclick="QuickEdit" class="fa-edit" title="Edit"></button>
                     <button type="button" @onclick="Edit" class="fa-cog" title="Settings"></button>
                 </div>
-                <div class="btn-group btn-block @(IsQuickEdit ? "" : IsTransfer ? "" : "d-none")">
-                    <button @onclick="Cancel" class="btn btn-danger oi oi-x"/>
-                    <button @onclick="Save" class="btn btn-success oi oi-check"/>
+                <div role="group" aria-label="Menu" class="@(IsQuickEdit ? "" : IsTransfer ? "" : "d-none")">
+                    <button type="button" @onclick="Cancel" class="fa-times" title="Cancel"></button>
+                    <button type="button" @onclick="Save" class="fa-check" title="Save"></button>
                 </div>
-            </th>
-            <th scope="col" class="btn-group btn-block @(IsEdit ? IsTransfer ? "d-none" : "" : "d-none")">
-                <button @onclick="Cancel" class="btn btn-danger oi oi-x"/>
-                <button @onclick="Save" class="btn btn-success oi oi-check"/>
-                <button @onclick="Add" class="btn btn-primary oi oi-plus"/>
-                <button @onclick="Transfer" class="btn btn-secondary oi oi-transfer"/>
             </th>
             <th scope="col" class="@(IsEdit ? "d-none" : "")" style="width:33.33%">
                 @CultureInfo.CurrentCulture.TextInfo.ToTitleCase(DateTime.Now.AddMonths(-1).ToString("MMM"))
