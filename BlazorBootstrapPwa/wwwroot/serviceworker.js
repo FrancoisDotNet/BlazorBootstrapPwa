@@ -335,6 +335,7 @@ var filesToCache = [
     './_framework/wasm/mono.wasm',
     //_framework/_bin
     './_framework/_bin/BlazorBootstrapPwa.dll',
+    './_framework/_bin/Blazored.LocalStorage.dll',
     './_framework/_bin/Microsoft.AspNetCore.Authorization.dll',
     './_framework/_bin/Microsoft.AspNetCore.Blazor.dll',
     './_framework/_bin/Microsoft.AspNetCore.Blazor.HttpClient.dll',
