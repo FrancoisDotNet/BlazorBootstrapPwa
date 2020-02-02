@@ -1,4 +1,4 @@
-﻿@* @using System.Globalization
+﻿@using System.Globalization
 @inject Blazored.LocalStorage.ISyncLocalStorageService service
 
 <table>
@@ -9,8 +9,7 @@
                     <button type="button" @onclick="QuickEdit">
                         <i class="fa-edit"></i>
                     </button>
-                    <button @onclick="Edit">
-                        <i class="fa-cog"></i>
+                    <button @onclick="Edit" class="fa-cog">
                     </button>
                 </div>
                 <div class="btn-group btn-block @(IsQuickEdit ? "" : IsTransfer ? "" : "d-none")">
@@ -41,7 +40,7 @@
         </tbody>
 @*     <CascadingValue Value="this">
         <TBody/>
-    </CascadingValue>
+    </CascadingValue>*@
     <tbody class="@(IsTransfer ? "" : "d-none")">
         <textarea class="form-control" @bind="transfer"/>
     </tbody>
@@ -82,4 +81,4 @@
     void Edit() => IsEdit = true;
 
     void QuickEdit() => IsQuickEdit = true;
-} *@
+}

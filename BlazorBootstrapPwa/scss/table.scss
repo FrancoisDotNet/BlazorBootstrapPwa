@@ -12,6 +12,7 @@ div {
 button {
     @extend .btn;
     @extend .btn-light;
+    @extend .fas;
 
     line-height: 1;
 }

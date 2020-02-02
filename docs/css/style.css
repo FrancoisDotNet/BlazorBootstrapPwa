@@ -9943,6 +9943,7 @@ table tbody + tbody {
 .fa,
 .fas,
 i,
+button,
 .far,
 .fal,
 .fad,
@@ -10049,6 +10050,7 @@ i,
 .fa.fa-pull-left,
 .fas.fa-pull-left,
 i.fa-pull-left,
+button.fa-pull-left,
 .far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
@@ -10057,6 +10059,7 @@ i.fa-pull-left,
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 i.fa-pull-right,
+button.fa-pull-right,
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
@@ -15795,7 +15798,8 @@ readers do not read off random characters that represent icons */
 }
 .fa,
 .fas,
-i {
+i,
+button {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
@@ -15813,7 +15817,7 @@ body {
 }
 
 figure {
-  size: 10em;
+  size: 100em;
   height: 100%;
 }
 
