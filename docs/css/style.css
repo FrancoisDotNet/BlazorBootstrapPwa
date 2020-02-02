@@ -9942,7 +9942,7 @@ table tbody + tbody {
  */
 .fa,
 .fas,
-i,
+figure,
 button,
 .far,
 .fal,
@@ -10049,7 +10049,7 @@ button,
 
 .fa.fa-pull-left,
 .fas.fa-pull-left,
-i.fa-pull-left,
+figure.fa-pull-left,
 button.fa-pull-left,
 .far.fa-pull-left,
 .fal.fa-pull-left,
@@ -10058,7 +10058,7 @@ button.fa-pull-left,
 }
 .fa.fa-pull-right,
 .fas.fa-pull-right,
-i.fa-pull-right,
+figure.fa-pull-right,
 button.fa-pull-right,
 .far.fa-pull-right,
 .fal.fa-pull-right,
@@ -14888,7 +14888,7 @@ readers do not read off random characters that represent icons */
   content: "";
 }
 
-.fa-table:before {
+.fa-table:before, figure:before {
   content: "";
 }
 
@@ -15798,7 +15798,7 @@ readers do not read off random characters that represent icons */
 }
 .fa,
 .fas,
-i,
+figure,
 button {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -15817,7 +15817,7 @@ body {
 }
 
 figure {
-  size: 100em;
+  size: 100rem;
   height: 100%;
 }
 

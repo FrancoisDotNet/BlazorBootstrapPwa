@@ -18,11 +18,9 @@ figure {
     @extend .justify-content-center;
     @extend .align-items-center;
     @extend .text-success;
-
-    size: 100em;
-    height: 100%;
-}
-
-i {
     @extend .fas;
+    @extend .fa-table;
+
+    size: 100rem;
+    height: 100%;
 }
