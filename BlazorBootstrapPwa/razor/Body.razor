@@ -38,20 +38,20 @@
     public bool IsTransfer { get; set; } = false;
     string transfer;
 
-    //protected override void OnInitialized() => Budget = service.GetItem<Transactions>("budget") is null ? new Transactions() : service.GetItem<Transactions>("budget");
+    protected override void OnInitialized() => Budget = service.GetItem<Transactions>("budget") is null ? new Transactions() : service.GetItem<Transactions>("budget");
     
     void Cancel()
     {
         IsEdit = false;
         IsQuickEdit = false;
         IsTransfer = false;
-        //OnInitialized();
+        OnInitialized();
     } 
     
     void Save()
     {
-        //Budget = IsTransfer ? Budget.Import(transfer) : Budget;
-        //service.SetItem("budget", Budget);
+        Budget = IsTransfer ? Budget.Import(transfer) : Budget;
+        service.SetItem("budget", Budget);
         Cancel();
     }
     
@@ -61,7 +61,7 @@
     {
         IsEdit = true;
         IsTransfer = true;
-        //transfer = Budget.Export();
+        transfer = Budget.Export();
     }
 
     void Edit() => IsEdit = true;
