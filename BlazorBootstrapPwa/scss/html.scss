@@ -1,6 +1,6 @@
 @import "bootstrap/bootstrap";
 @import "fontawesome/fontawesome";
-@import "fontawesome/regular";
+@import "fontawesome/solid";
 @import "table";
 
 html {
@@ -19,15 +19,4 @@ figure {
     @extend .align-items-center;
 
     height: 100%;
-}
-
-figure > img {
-    @extend .filter-green;
-
-    width: 10em;
-    height: 10em;
-}
-
-.filter-green{
-    filter: invert(44%) sepia(100%) saturate(368%) hue-rotate(82deg) brightness(98%) contrast(88%);
 }
