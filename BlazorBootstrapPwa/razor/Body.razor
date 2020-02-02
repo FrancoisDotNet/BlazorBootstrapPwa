@@ -4,31 +4,24 @@
 <table>
     <thead>
         <tr>
-            <th scope="col" class="@(IsEdit ? IsTransfer ? "" : "d-none" : "")">
+            <th scope="col" class="@(IsEdit ? "d-none" : "")">
                 <div role="group" aria-label="Menu" class="@(IsQuickEdit ? "d-none" : IsTransfer ? "d-none" : "")">
                     <button type="button" @onclick="QuickEdit" class="fa-edit" title="Edit"></button>
-                    <button type="button" @onclick="Edit" class="fa-cog" title="Settings"></button>
+                    <button type="button" @onclick="Edit" class="fa-exchange-alt" title="Transfer"></button>
                 </div>
-                <div role="group" aria-label="Menu" class="@(IsQuickEdit ? "" : IsTransfer ? "" : "d-none")">
+                <div role="group" aria-label="Menu" class="@(IsEdit ? "" : "d-none")">
                     <button type="button" @onclick="Cancel" class="fa-times" title="Cancel"></button>
                     <button type="button" @onclick="Save" class="fa-check" title="Save"></button>
                 </div>
             </th>
-            <th scope="col" class="@(IsEdit ? "d-none" : "")" style="width:33.33%">
+            <th scope="col" class="@(IsTransfer ? "d-none" : "")">
                 @CultureInfo.CurrentCulture.TextInfo.ToTitleCase(DateTime.Now.AddMonths(-1).ToString("MMM"))
             </th>
-            <th scope="col" class="@(IsEdit ? "d-none" : "")" style="width:33.33%">
+            <th scope="col" class="@(IsTransfer ? "d-none" : "")">
                 @CultureInfo.CurrentCulture.TextInfo.ToTitleCase(DateTime.Now.ToString("MMM"))
             </th>
         </tr>
     </thead>
-        <tbody>
-            <tr class="btn-primary active" style="font-weight: bold">
-                <td class="text-left">Total</td>
-                <td>sfs</td>
-                <td>sbksjf</td>
-            </tr>
-        </tbody>
 @*     <CascadingValue Value="this">
         <TBody/>
     </CascadingValue>*@
@@ -51,25 +44,24 @@
         IsEdit = false;
         IsQuickEdit = false;
         IsTransfer = false;
-        OnInitialized();
+        //OnInitialized();
     } 
     
     void Save()
     {
-        Budget = IsTransfer ? Budget.Import(transfer) : Budget;
-        service.SetItem("budget", Budget);
+        //Budget = IsTransfer ? Budget.Import(transfer) : Budget;
+        //service.SetItem("budget", Budget);
         Cancel();
     }
     
-    void Add() => Budget.List.Add(new Transaction());
+    //void Add() => Budget.List.Add(new Transaction());
 
     void Transfer()
     {
+        IsEdit = true;
         IsTransfer = true;
-        transfer = Budget.Export();
+        //transfer = Budget.Export();
     }
 
     void Edit() => IsEdit = true;
-
-    void QuickEdit() => IsQuickEdit = true;
 }

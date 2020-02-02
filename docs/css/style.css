@@ -2615,33 +2615,33 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
 }
 
-.btn-light, .fa-edit, .fa-cog {
+.btn-light, .fa-edit, .fa-exchange-alt {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
-.btn-light:hover, .fa-edit:hover, .fa-cog:hover {
+.btn-light:hover, .fa-edit:hover, .fa-exchange-alt:hover {
   color: #212529;
   background-color: #e2e6ea;
   border-color: #dae0e5;
 }
-.btn-light:focus, .fa-edit:focus, .fa-cog:focus, .btn-light.focus, .focus.fa-edit, .focus.fa-cog {
+.btn-light:focus, .fa-edit:focus, .fa-exchange-alt:focus, .btn-light.focus, .focus.fa-edit, .focus.fa-exchange-alt {
   color: #212529;
   background-color: #e2e6ea;
   border-color: #dae0e5;
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
 }
-.btn-light.disabled, .disabled.fa-edit, .disabled.fa-cog, .btn-light:disabled, .fa-edit:disabled, .fa-cog:disabled {
+.btn-light.disabled, .disabled.fa-edit, .disabled.fa-exchange-alt, .btn-light:disabled, .fa-edit:disabled, .fa-exchange-alt:disabled {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
-.btn-light:not(:disabled):not(.disabled):active, .fa-edit:not(:disabled):not(.disabled):active, .fa-cog:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, .fa-edit:not(:disabled):not(.disabled).active, .fa-cog:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle, .show > .dropdown-toggle.fa-edit, .show > .dropdown-toggle.fa-cog {
+.btn-light:not(:disabled):not(.disabled):active, .fa-edit:not(:disabled):not(.disabled):active, .fa-exchange-alt:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, .fa-edit:not(:disabled):not(.disabled).active, .fa-exchange-alt:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle, .show > .dropdown-toggle.fa-edit, .show > .dropdown-toggle.fa-exchange-alt {
   color: #212529;
   background-color: #dae0e5;
   border-color: #d3d9df;
 }
-.btn-light:not(:disabled):not(.disabled):active:focus, .fa-edit:not(:disabled):not(.disabled):active:focus, .fa-cog:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, .fa-edit:not(:disabled):not(.disabled).active:focus, .fa-cog:not(:disabled):not(.disabled).active:focus, .show > .btn-light.dropdown-toggle:focus, .show > .dropdown-toggle.fa-edit:focus, .show > .dropdown-toggle.fa-cog:focus {
+.btn-light:not(:disabled):not(.disabled):active:focus, .fa-edit:not(:disabled):not(.disabled):active:focus, .fa-exchange-alt:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, .fa-edit:not(:disabled):not(.disabled).active:focus, .fa-exchange-alt:not(:disabled):not(.disabled).active:focus, .show > .btn-light.dropdown-toggle:focus, .show > .dropdown-toggle.fa-edit:focus, .show > .dropdown-toggle.fa-exchange-alt:focus {
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
 }
 
@@ -15813,7 +15813,7 @@ body {
 }
 
 figure {
-  font-size: 100rem;
+  font-size: 10em;
   height: 100%;
 }
 
