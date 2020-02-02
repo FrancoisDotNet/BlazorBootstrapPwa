@@ -1,4 +1,5 @@
-﻿@using System.Globalization
+﻿@using Microsoft.AspNetCore.Components.Web
+@using System.Globalization
 @inject Blazored.LocalStorage.ISyncLocalStorageService service
 
 <table>
@@ -6,8 +7,8 @@
         <tr>
             <th scope="col" class="@(IsEdit ? "d-none" : "")">
                 <div role="group" aria-label="Menu" class="@(IsQuickEdit ? "d-none" : IsTransfer ? "d-none" : "")">
-                    <button type="button" @onclick="QuickEdit" class="fa-edit" title="Edit"></button>
-                    <button type="button" @onclick="Edit" class="fa-exchange-alt" title="Transfer"></button>
+                    <button type="button" @onclick="Edit" class="fa-edit" title="Edit"></button>
+                    <button type="button" @onclick="Transfer" class="fa-exchange-alt" title="Transfer"></button>
                 </div>
                 <div role="group" aria-label="Menu" class="@(IsEdit ? "" : "d-none")">
                     <button type="button" @onclick="Cancel" class="fa-times" title="Cancel"></button>
