@@ -6,9 +6,7 @@
         <tr>
             <th scope="col" class="@(IsEdit ? IsTransfer ? "" : "d-none" : "")">
                 <div role="group" aria-label="Menu" class="@(IsQuickEdit ? "d-none" : IsTransfer ? "d-none" : "")">
-                    <button type="button" @onclick="QuickEdit">
-                        <img src="icons/bootstrap/pencil.svg" alt="" role="img">
-                    </button>
+                    <button type="button" @onclick="QuickEdit" class="bi-alarm"></button>
                     <button @onclick="Edit">
                         <img src="icons/bootstrap/gear.svg" alt="" role="img">
                     </button>
