@@ -1,4 +1,4 @@
-﻿@using System.Globalization
+﻿@* @using System.Globalization
 @inject Blazored.LocalStorage.ISyncLocalStorageService service
 
 <table>
@@ -41,7 +41,7 @@
         </tbody>
 @*     <CascadingValue Value="this">
         <TBody/>
-    </CascadingValue> *@
+    </CascadingValue>
     <tbody class="@(IsTransfer ? "" : "d-none")">
         <textarea class="form-control" @bind="transfer"/>
     </tbody>
@@ -82,4 +82,4 @@
     void Edit() => IsEdit = true;
 
     void QuickEdit() => IsQuickEdit = true;
-}
+} *@
