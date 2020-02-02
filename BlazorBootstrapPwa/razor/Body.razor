@@ -6,8 +6,8 @@
         <tr>
             <th scope="col" class="@(IsEdit ? IsTransfer ? "" : "d-none" : "")">
                 <div class="btn-group btn-block @(IsQuickEdit ? "d-none" : IsTransfer ? "d-none" : "")">
-                    <button @onclick="QuickEdit" class="btn btn-light oi oi-pencil" />
-                    <button @onclick="Edit" class="btn btn-light oi oi-menu"/>
+                    <button @onclick="QuickEdit" class="btn btn-light bi bi-pencil" />
+                    <button @onclick="Edit" class="btn btn-light bi bi-menu"/>
                 </div>
                 <div class="btn-group btn-block @(IsQuickEdit ? "" : IsTransfer ? "" : "d-none")">
                     <button @onclick="Cancel" class="btn btn-danger oi oi-x"/>
