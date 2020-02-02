@@ -3,3 +3,13 @@ table {
     @extend .table-dark;
     @extend .text-right;
 }
+
+div {
+    @extend .btn-group;
+    @extend .btn-block;
+}
+
+button {
+    @extend .btn;
+    @extend .btn-light;
+}

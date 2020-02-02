@@ -1,5 +1,4 @@
 @import "bootstrap/bootstrap";
-@import "bootstrap/icons/icons";
 @import "table";
 
 html {
@@ -20,7 +19,7 @@ figure {
     height: 100%;
 }
 
-img {
+figure > img {
     @extend .filter-green;
 
     width: 10em;
