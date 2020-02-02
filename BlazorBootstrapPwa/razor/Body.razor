@@ -6,8 +6,8 @@
         <tr>
             <th scope="col" class="@(IsEdit ? IsTransfer ? "" : "d-none" : "")">
                 <div role="group" aria-label="Menu" class="@(IsQuickEdit ? "d-none" : IsTransfer ? "d-none" : "")">
-                    <button type="button" @onclick="QuickEdit" class="fa-edit"></button>
-                    <button type="button" @onclick="Edit" class="fa-cog"></button>
+                    <button type="button" @onclick="QuickEdit" class="fa-edit" title="Edit"></button>
+                    <button type="button" @onclick="Edit" class="fa-cog" title="Settings"></button>
                 </div>
                 <div class="btn-group btn-block @(IsQuickEdit ? "" : IsTransfer ? "" : "d-none")">
                     <button @onclick="Cancel" class="btn btn-danger oi oi-x"/>
