@@ -1668,22 +1668,23 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
-.table {
+.table, figure {
   width: 100%;
   margin-bottom: 1rem;
   color: #212529;
 }
-.table th,
-.table td {
+.table th, figure th,
+.table td,
+figure td {
   padding: 0.75rem;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
 }
-.table thead th {
+.table thead th, figure thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #dee2e6;
 }
-.table tbody + tbody {
+.table tbody + tbody, figure tbody + tbody {
   border-top: 2px solid #dee2e6;
 }
 
@@ -1860,23 +1861,28 @@ pre code {
   background-color: #ececf6;
 }
 
-.table-dark,
+.table-dark, figure,
 .table-dark > th,
-.table-dark > td {
+figure > th,
+.table-dark > td,
+figure > td {
   background-color: #c6c8ca;
 }
-.table-dark th,
+.table-dark th, figure th,
 .table-dark td,
+figure td,
 .table-dark thead th,
-.table-dark tbody + tbody {
+.table-dark tbody + tbody,
+figure tbody + tbody {
   border-color: #95999c;
 }
 
-.table-hover .table-dark:hover {
+.table-hover .table-dark:hover, .table-hover figure:hover {
   background-color: #b9bbbe;
 }
-.table-hover .table-dark:hover > td,
-.table-hover .table-dark:hover > th {
+.table-hover .table-dark:hover > td, .table-hover figure:hover > td,
+.table-hover .table-dark:hover > th,
+.table-hover figure:hover > th {
   background-color: #b9bbbe;
 }
 
@@ -1894,33 +1900,34 @@ pre code {
   background-color: rgba(0, 0, 0, 0.075);
 }
 
-.table .thead-dark th {
+.table .thead-dark th, figure .thead-dark th {
   color: #fff;
   background-color: #343a40;
   border-color: #454d55;
 }
-.table .thead-light th {
+.table .thead-light th, figure .thead-light th {
   color: #495057;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
 
-.table-dark {
+.table-dark, figure {
   color: #fff;
   background-color: #343a40;
 }
-.table-dark th,
+.table-dark th, figure th,
 .table-dark td,
+figure td,
 .table-dark thead th {
   border-color: #454d55;
 }
-.table-dark.table-bordered {
+.table-dark.table-bordered, figure.table-bordered {
   border: 0;
 }
-.table-dark.table-striped tbody tr:nth-of-type(odd) {
+.table-dark.table-striped tbody tr:nth-of-type(odd), figure.table-striped tbody tr:nth-of-type(odd) {
   background-color: rgba(255, 255, 255, 0.05);
 }
-.table-dark.table-hover tbody tr:hover {
+.table-dark.table-hover tbody tr:hover, figure.table-hover tbody tr:hover {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.075);
 }
@@ -6235,7 +6242,7 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex, body {
+.d-flex, figure {
   display: flex !important;
 }
 
@@ -6525,7 +6532,7 @@ button.bg-dark:focus {
   justify-content: flex-end !important;
 }
 
-.justify-content-center, body {
+.justify-content-center, figure {
   justify-content: center !important;
 }
 
@@ -6545,7 +6552,7 @@ button.bg-dark:focus {
   align-items: flex-end !important;
 }
 
-.align-items-center, body {
+.align-items-center, figure {
   align-items: center !important;
 }
 
@@ -9572,7 +9579,7 @@ button.bg-dark:focus {
   text-align: left !important;
 }
 
-.text-right {
+.text-right, figure {
   text-align: right !important;
 }
 
@@ -9847,11 +9854,12 @@ h3 {
     border: 1px solid #000;
   }
 
-  .table {
+  .table, figure {
     border-collapse: collapse !important;
   }
-  .table td,
-.table th {
+  .table td, figure td,
+.table th,
+figure th {
     background-color: #fff !important;
   }
 
@@ -9860,22 +9868,32 @@ h3 {
     border: 1px solid #dee2e6 !important;
   }
 
-  .table-dark {
+  .table-dark, figure {
     color: inherit;
   }
-  .table-dark th,
+  .table-dark th, figure th,
 .table-dark td,
+figure td,
 .table-dark thead th,
-.table-dark tbody + tbody {
+.table-dark tbody + tbody,
+figure tbody + tbody {
     border-color: #dee2e6;
   }
 
-  .table .thead-dark th {
+  .table .thead-dark th, figure .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
   }
 }
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
+}
+
+figure {
   height: 100%;
 }
 
@@ -9886,10 +9904,6 @@ img {
 
 .filter-green, img {
   filter: invert(44%) sepia(100%) saturate(368%) hue-rotate(82deg) brightness(98%) contrast(88%);
-}
-
-html {
-  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

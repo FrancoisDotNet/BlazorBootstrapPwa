@@ -1,7 +1,31 @@
 @import "bootstrap/bootstrap";
-@import "body";
-@import "img";
+@import "table";
 
 html {
     height: 100%;
+}
+
+body {
+    @extend .bg-dark;
+
+    height: 100%;
+}
+
+figure {
+    @extend .d-flex;
+    @extend .justify-content-center;
+    @extend .align-items-center;
+
+    height: 100%;
+}
+
+img {
+    @extend .filter-green;
+
+    width: 10em;
+    height: 10em;
+}
+
+.filter-green{
+    filter: invert(44%) sepia(100%) saturate(368%) hue-rotate(82deg) brightness(98%) contrast(88%);
 }
