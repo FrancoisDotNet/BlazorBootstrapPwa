@@ -353,13 +353,14 @@ template {
 }
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h1,
+figure, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
 }
 
-h1, .h1 {
+h1, .h1, figure {
   font-size: 2.5rem;
 }
 
@@ -9746,7 +9747,7 @@ a.text-secondary:hover, a.text-secondary:focus {
   color: #494f54 !important;
 }
 
-.text-success {
+.text-success, figure {
   color: #28a745 !important;
 }
 
@@ -9942,6 +9943,7 @@ table tbody + tbody {
  */
 .fa,
 .fas,
+i,
 .far,
 .fal,
 .fad,
@@ -10047,6 +10049,7 @@ table tbody + tbody {
 
 .fa.fa-pull-left,
 .fas.fa-pull-left,
+i.fa-pull-left,
 .far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
@@ -10054,6 +10057,7 @@ table tbody + tbody {
 }
 .fa.fa-pull-right,
 .fas.fa-pull-right,
+i.fa-pull-right,
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
@@ -15791,7 +15795,8 @@ readers do not read off random characters that represent icons */
   src: url("../icons/fontawesome/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../icons/fontawesome/fa-solid-900.woff2") format("woff2"), url("../icons/fontawesome/fa-solid-900.woff") format("woff"), url("../icons/fontawesome/fa-solid-900.ttf") format("truetype"), url("../icons/fontawesome/fa-solid-900.svg#fontawesome") format("svg");
 }
 .fa,
-.fas {
+.fas,
+i {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }

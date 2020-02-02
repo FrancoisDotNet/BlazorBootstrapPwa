@@ -17,6 +17,12 @@ figure {
     @extend .d-flex;
     @extend .justify-content-center;
     @extend .align-items-center;
+    @extend .text-success;
+    @extend .h1;
 
     height: 100%;
+}
+
+i {
+    @extend .fas;
 }
