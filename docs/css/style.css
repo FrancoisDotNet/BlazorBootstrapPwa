@@ -9936,6 +9936,10 @@ table tbody + tbody {
     border-color: #dee2e6;
   }
 }
+button {
+  line-height: 1;
+}
+
 html {
   height: 100%;
 }
