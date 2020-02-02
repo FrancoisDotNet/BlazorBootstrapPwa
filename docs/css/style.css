@@ -15809,11 +15809,19 @@ button {
   font-weight: 900;
 }
 
-div {
+table {
+  height: 100%;
+}
+
+button {
   margin-top: 0;
 }
 
 textarea {
+  height: 100%;
+}
+
+tbody {
   height: 100%;
 }
 

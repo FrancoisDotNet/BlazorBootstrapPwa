@@ -2,23 +2,29 @@ table {
     @extend .table;
     @extend .table-dark;
     @extend .text-right;
+
+    height: 100%;
 }
 
 div {
     @extend .btn-group;
     @extend .btn-block;
-
-    margin-top: 0;
 }
 
 button {
     @extend .btn;
     @extend .fas;
+
+    margin-top: 0;
 }
 
 textarea {
     @extend .form-control;
 
+    height: 100%;
+}
+
+tbody {
     height: 100%;
 }
 
