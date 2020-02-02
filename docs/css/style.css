@@ -9940,6 +9940,10 @@ button {
   line-height: 1;
 }
 
+img {
+  font-weight: bold;
+}
+
 html {
   height: 100%;
 }
