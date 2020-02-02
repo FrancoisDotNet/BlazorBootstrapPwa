@@ -1668,23 +1668,23 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
-.table, figure {
+.table, table {
   width: 100%;
   margin-bottom: 1rem;
   color: #212529;
 }
-.table th, figure th,
+.table th, table th,
 .table td,
-figure td {
+table td {
   padding: 0.75rem;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
 }
-.table thead th, figure thead th {
+.table thead th, table thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #dee2e6;
 }
-.table tbody + tbody, figure tbody + tbody {
+.table tbody + tbody, table tbody + tbody {
   border-top: 2px solid #dee2e6;
 }
 
@@ -1861,28 +1861,28 @@ figure td {
   background-color: #ececf6;
 }
 
-.table-dark, figure,
+.table-dark, table,
 .table-dark > th,
-figure > th,
+table > th,
 .table-dark > td,
-figure > td {
+table > td {
   background-color: #c6c8ca;
 }
-.table-dark th, figure th,
+.table-dark th, table th,
 .table-dark td,
-figure td,
+table td,
 .table-dark thead th,
 .table-dark tbody + tbody,
-figure tbody + tbody {
+table tbody + tbody {
   border-color: #95999c;
 }
 
-.table-hover .table-dark:hover, .table-hover figure:hover {
+.table-hover .table-dark:hover, .table-hover table:hover {
   background-color: #b9bbbe;
 }
-.table-hover .table-dark:hover > td, .table-hover figure:hover > td,
+.table-hover .table-dark:hover > td, .table-hover table:hover > td,
 .table-hover .table-dark:hover > th,
-.table-hover figure:hover > th {
+.table-hover table:hover > th {
   background-color: #b9bbbe;
 }
 
@@ -1900,34 +1900,34 @@ figure tbody + tbody {
   background-color: rgba(0, 0, 0, 0.075);
 }
 
-.table .thead-dark th, figure .thead-dark th {
+.table .thead-dark th, table .thead-dark th {
   color: #fff;
   background-color: #343a40;
   border-color: #454d55;
 }
-.table .thead-light th, figure .thead-light th {
+.table .thead-light th, table .thead-light th {
   color: #495057;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
 
-.table-dark, figure {
+.table-dark, table {
   color: #fff;
   background-color: #343a40;
 }
-.table-dark th, figure th,
+.table-dark th, table th,
 .table-dark td,
-figure td,
+table td,
 .table-dark thead th {
   border-color: #454d55;
 }
-.table-dark.table-bordered, figure.table-bordered {
+.table-dark.table-bordered, table.table-bordered {
   border: 0;
 }
-.table-dark.table-striped tbody tr:nth-of-type(odd), figure.table-striped tbody tr:nth-of-type(odd) {
+.table-dark.table-striped tbody tr:nth-of-type(odd), table.table-striped tbody tr:nth-of-type(odd) {
   background-color: rgba(255, 255, 255, 0.05);
 }
-.table-dark.table-hover tbody tr:hover, figure.table-hover tbody tr:hover {
+.table-dark.table-hover tbody tr:hover, table.table-hover tbody tr:hover {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.075);
 }
@@ -9579,7 +9579,7 @@ button.bg-dark:focus {
   text-align: left !important;
 }
 
-.text-right, figure {
+.text-right, table {
   text-align: right !important;
 }
 
@@ -9854,12 +9854,12 @@ h3 {
     border: 1px solid #000;
   }
 
-  .table, figure {
+  .table, table {
     border-collapse: collapse !important;
   }
-  .table td, figure td,
+  .table td, table td,
 .table th,
-figure th {
+table th {
     background-color: #fff !important;
   }
 
@@ -9868,19 +9868,19 @@ figure th {
     border: 1px solid #dee2e6 !important;
   }
 
-  .table-dark, figure {
+  .table-dark, table {
     color: inherit;
   }
-  .table-dark th, figure th,
+  .table-dark th, table th,
 .table-dark td,
-figure td,
+table td,
 .table-dark thead th,
 .table-dark tbody + tbody,
-figure tbody + tbody {
+table tbody + tbody {
     border-color: #dee2e6;
   }
 
-  .table .thead-dark th, figure .thead-dark th {
+  .table .thead-dark th, table .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
   }
