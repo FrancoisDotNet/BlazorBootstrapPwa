@@ -14,8 +14,6 @@ div {
 button {
     @extend .btn;
     @extend .fas;
-
-    margin-top: 0;
 }
 
 textarea {
@@ -38,4 +36,8 @@ tbody {
 
 .fa-check {
     @extend .btn-success;
+}
+
+.btn-block {
+    margin-top: 0;
 }

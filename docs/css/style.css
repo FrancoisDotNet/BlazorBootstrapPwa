@@ -15813,16 +15813,16 @@ table {
   height: 100%;
 }
 
-button {
-  margin-top: 0;
-}
-
 textarea {
   height: 100%;
 }
 
 tbody {
   height: 100%;
+}
+
+.btn-block, div {
+  margin-top: 0;
 }
 
 html {
