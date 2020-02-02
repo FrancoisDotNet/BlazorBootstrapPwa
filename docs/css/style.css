@@ -15809,15 +15809,7 @@ button {
   font-weight: 900;
 }
 
-table {
-  height: 100%;
-}
-
-textarea {
-  height: 100%;
-}
-
-tbody {
+table, tbody, textarea {
   height: 100%;
 }
 
@@ -15825,17 +15817,12 @@ div + .btn-block, div + div {
   margin-top: 0;
 }
 
-html {
-  height: 100%;
-}
-
-body {
+html, body, figure {
   height: 100%;
 }
 
 figure {
   font-size: 10em;
-  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

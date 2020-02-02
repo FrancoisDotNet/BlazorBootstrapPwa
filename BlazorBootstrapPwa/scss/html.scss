@@ -3,14 +3,12 @@
 @import "fontawesome/solid";
 @import "table";
 
-html {
+html, body, figure {
     height: 100%;
 }
 
 body {
     @extend .bg-dark;
-
-    height: 100%;
 }
 
 figure {
@@ -22,5 +20,4 @@ figure {
     @extend .fa-table;
 
     font-size: 10em;
-    height: 100%;
 }
