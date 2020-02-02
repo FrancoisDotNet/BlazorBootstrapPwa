@@ -7,11 +7,19 @@ table {
 div {
     @extend .btn-group;
     @extend .btn-block;
+
+    margin-top: 0;
 }
 
 button {
     @extend .btn;
     @extend .fas;
+}
+
+textarea {
+    @extend .form-control;
+
+    height: 100%;
 }
 
 .fa-edit, .fa-exchange-alt {
