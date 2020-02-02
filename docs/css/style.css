@@ -9936,11 +9936,6 @@ table tbody + tbody {
     border-color: #dee2e6;
   }
 }
-img {
-  width: 2em;
-  height: 2em;
-}
-
 html {
   height: 100%;
 }
