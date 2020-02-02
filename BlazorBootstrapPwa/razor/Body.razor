@@ -5,7 +5,7 @@
 <table>
     <thead>
         <tr>
-            <th scope="col" class="@(IsEdit ? "d-none" : "")">
+            <th scope="col">
                 <div role="group" aria-label="Menu" class="@(IsQuickEdit ? "d-none" : IsTransfer ? "d-none" : "")">
                     <button type="button" @onclick="Edit" class="fa-edit" title="Edit"></button>
                     <button type="button" @onclick="Transfer" class="fa-exchange-alt" title="Transfer"></button>
@@ -38,7 +38,7 @@
     public bool IsTransfer { get; set; } = false;
     string transfer;
 
-    protected override void OnInitialized() => Budget = service.GetItem<Transactions>("budget") is null ? new Transactions() : service.GetItem<Transactions>("budget");
+    //protected override void OnInitialized() => Budget = service.GetItem<Transactions>("budget") is null ? new Transactions() : service.GetItem<Transactions>("budget");
     
     void Cancel()
     {
