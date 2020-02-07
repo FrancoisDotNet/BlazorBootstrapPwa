@@ -1,7 +1,7 @@
 // @import "bootstrap/bootstrap";
 // @import "fontawesome/fontawesome";
 // @import "fontawesome/solid";
-@import "fabric/Fabric";
+@import "semantic-ui";
 //@import "table";
 
 html, body, figure {
@@ -10,7 +10,8 @@ html, body, figure {
 
 body {
     //@extend .bg-dark;
-    @extend .ms-bgColor-gray190;
+    @extend .ui, .middle, .aligned, .center,  .aligned, .grid, .black;
+    background-color: #1B1C1D;
 }
 
 figure {
@@ -21,7 +22,6 @@ figure {
     @extend .fas;
     @extend .fa-table;*/
     //align-content: center;
-    align-items: center;
 
     font-size: 10em;
 }
