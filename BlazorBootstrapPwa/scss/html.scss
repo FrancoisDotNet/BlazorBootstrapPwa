@@ -1,23 +1,27 @@
-@import "bootstrap/bootstrap";
-@import "fontawesome/fontawesome";
-@import "fontawesome/solid";
-@import "table";
+// @import "bootstrap/bootstrap";
+// @import "fontawesome/fontawesome";
+// @import "fontawesome/solid";
+@import "fabric/Fabric";
+//@import "table";
 
 html, body, figure {
     height: 100%;
 }
 
 body {
-    @extend .bg-dark;
+    //@extend .bg-dark;
+    @extend .ms-bgColor-gray190;
 }
 
 figure {
-    @extend .d-flex;
+    /*@extend .d-flex;
     @extend .justify-content-center;
     @extend .align-items-center;
     @extend .text-success;
     @extend .fas;
-    @extend .fa-table;
+    @extend .fa-table;*/
+    //align-content: center;
+    align-items: center;
 
     font-size: 10em;
 }

@@ -16,7 +16,7 @@
     </ItemGroup>
     <Copy SourceFiles="@(DistDir)" DestinationFolder="..\docs\%(RecursiveDir)" SkipUnchangedFiles="true"/>
     <Exec Command="
-      sass scss\html.scss ..\docs\css\style.css"/>
+      sass scss\html.scss ..\docs\css\html.css"/>
     <Exec Command="git add -A
       git commit -a
       git push origin"/>
