@@ -6,12 +6,12 @@
 
 html, body, figure {
     height: 100%;
+    background-color: #1B1C1D;
 }
 
 body {
     //@extend .bg-dark;
-    @extend .ui, .middle, .aligned, .center,  .aligned, .grid, .black;
-    //background-color: #1B1C1D;
+    @extend .ui, .middle, .aligned, .center, .aligned, .grid;
 }
 
 i {
