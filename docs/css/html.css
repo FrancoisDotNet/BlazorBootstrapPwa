@@ -40851,7 +40851,7 @@ body.video.active .placeholder {
 /*******************************
          Site Overrides
 *******************************/
-html, body, figure {
+html, body {
   height: 100%;
   background-color: #1B1C1D;
 }
