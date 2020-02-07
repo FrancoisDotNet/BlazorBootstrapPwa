@@ -11,7 +11,7 @@ html, body, figure {
 body {
     //@extend .bg-dark;
     @extend .ui, .middle, .aligned, .center,  .aligned, .grid, .black;
-    background-color: #1B1C1D;
+    //background-color: #1B1C1D;
 }
 
 figure {
@@ -22,6 +22,7 @@ figure {
     @extend .fas;
     @extend .fa-table;*/
     //align-content: center;
-
+    @extend .table, .icon, .green;
     font-size: 10em;
+    
 }
