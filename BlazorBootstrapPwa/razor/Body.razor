@@ -21,7 +21,7 @@
             <th scope="col" class="@(IsTransfer ? "d-none" : "")">
                 @CultureInfo.CurrentCulture.TextInfo.ToTitleCase(DateTime.Now.ToString("MMM"))
             </th>
-            <th scope="col" class="@(IsEdit ? "" : IsTransfer ? "d-none" : "")"></th>
+            <th scope="col" class="@(IsEdit ? IsTransfer ? "d-none" : "" : "d-none")"></th>
         </tr>
     </thead>
     <CascadingValue Value="this">
