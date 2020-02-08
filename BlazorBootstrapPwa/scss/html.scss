@@ -12,15 +12,17 @@ body {
 }
 
 figure {
-    @extend .d-flex, .justify-content-center, .align-items-center, .text-success;
+    @extend .d-flex, .justify-content-center, .align-items-center, .text-success, .bi;
     //.fas, .fa-table;
     font-size: 10em;
 
-    .bi::before {
-        display: inline-block;
-        content: "";
-        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23333' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/></svg>");
-        background-repeat: no-repeat;
-        background-size: 1rem 1rem;
-      }
+
 }
+
+.bi::before {
+    display: inline-block;
+    content: "";
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23333' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
