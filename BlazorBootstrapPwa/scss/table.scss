@@ -37,3 +37,8 @@ textarea {
 div + .btn-block {
     margin-top: 0;
 }
+
+tr + .primary {
+    @extend .btn-primary, .active;
+    font-weight: bold;
+}

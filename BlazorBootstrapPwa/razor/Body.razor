@@ -21,11 +21,12 @@
             <th scope="col" class="@(IsTransfer ? "d-none" : "")">
                 @CultureInfo.CurrentCulture.TextInfo.ToTitleCase(DateTime.Now.ToString("MMM"))
             </th>
+            <th scope="col" class="@(IsEdit ? "" : "d-none")"></th>
         </tr>
     </thead>
-@*     <CascadingValue Value="this">
+    <CascadingValue Value="this">
         <TBody/>
-    </CascadingValue>*@
+    </CascadingValue>
     <tbody class="@(IsTransfer ? "" : "d-none")">
         <textarea @bind="transfer"/>
     </tbody>
