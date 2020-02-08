@@ -9881,10 +9881,6 @@ html, body, figure {
   height: 100%;
 }
 
-figure {
-  font-size: 10em;
-}
-
 .bi::before, figure::before {
   display: inline-block;
   content: "";
