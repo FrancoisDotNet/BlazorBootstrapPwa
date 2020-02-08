@@ -1,5 +1,11 @@
 ﻿<tbody class="@(Body.IsTransfer ? "d-none" : "")">
     <tr class="primary">
+        <td class="text-left">Balance</td>
+        <td>@Body.Budget.Balance()[0].ToString("C")</td>
+        <td>@Body.Budget.Balance()[1].ToString("C")</td>
+        <th scope="col" class="@(Body.IsEdit ? "" : "d-none")"></th>
+    </tr>
+    <tr class="primary">
         <td class="text-left">Total</td>
         <td>@Body.Budget.Total()[0].ToString("C")</td>
         <td>@Body.Budget.Total()[1].ToString("C")</td>
@@ -9,6 +15,12 @@
         <td class="text-left">Balance</td>
         <td>@Body.Budget.Balance()[0].ToString("C")</td>
         <td>@Body.Budget.Balance()[1].ToString("C")</td>
+        <th scope="col" class="@(Body.IsEdit ? "" : "d-none")"></th>
+    </tr>
+    <tr class="primary">
+        <td class="text-left">Total</td>
+        <td>@Body.Budget.Total()[0].ToString("C")</td>
+        <td>@Body.Budget.Total()[1].ToString("C")</td>
         <th scope="col" class="@(Body.IsEdit ? "" : "d-none")"></th>
     </tr>
     @for (int i = 0; i < 2; i++)
