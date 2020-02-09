@@ -3,7 +3,7 @@
 @import "fontawesome/solid"; */
 //@import "table";
 
-html, body, figure {
+html, body, span {
     height: 100%;
 }
 
@@ -11,7 +11,7 @@ body {
     @extend .bg-dark;
 }
 
-figure {
+span {
     @extend .d-flex, .justify-content-center, .align-items-center;
     @extend .bi-document-spreadsheet;
 }
