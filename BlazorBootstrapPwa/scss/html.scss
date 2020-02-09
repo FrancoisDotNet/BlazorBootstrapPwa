@@ -3,13 +3,12 @@
 @import "fontawesome/solid"; */
 //@import "table";
 
-html, body, i {
+html, body {
     height: 100%;
 }
 
 body {
     @extend .bg-success;
-    //.d-flex, .justify-content-center, .align-items-center,
 }
 
 i {

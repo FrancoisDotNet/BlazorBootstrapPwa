@@ -9877,7 +9877,7 @@ h3 {
 }
 /* @import "fontawesome/fontawesome";
 @import "fontawesome/solid"; */
-html, body, i {
+html, body {
   height: 100%;
 }
 
