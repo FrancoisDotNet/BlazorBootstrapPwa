@@ -13,7 +13,7 @@ body {
 
 figure {
     @extend .d-flex, .justify-content-center, .align-items-center, .text-success;
-    @extend .bi-document-spreadsheet;
+    @extend .bi;
     //.fas, .fa-table;
 
 
@@ -24,7 +24,7 @@ img {
 }
 
 .bi-document-spreadsheet {
-    background-image: url("data:image/svg+xml, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' ><path fill-rule='evenodd d='M6 3h8a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2zm0 1a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V5a1 1 0 00-1-1H6z' clip-rule='evenodd'/><path fill-rule='evenodd' d='M15 8H5V7h10v1zm0 3H5v-1h10v1zm0 3H5v-1h10v1z' clip-rule='evenodd'/><path fill-rule='evenodd' d='M7 16V8h1v8H7zm4 0V8h1v8h-1z' clip-rule='evenodd'/></svg>");
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' ><path fill-rule='evenodd d='M6 3h8a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2zm0 1a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V5a1 1 0 00-1-1H6z' clip-rule='evenodd'/><path fill-rule='evenodd' d='M15 8H5V7h10v1zm0 3H5v-1h10v1zm0 3H5v-1h10v1z' clip-rule='evenodd'/><path fill-rule='evenodd' d='M7 16V8h1v8H7zm4 0V8h1v8h-1z' clip-rule='evenodd'/></svg>");
     height:10em;
     width:10em;
     fill: green;
@@ -32,7 +32,7 @@ img {
 
 
 
-.bi::before {
+.bi {
     display: inline-block;
     content: "";
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23333' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/></svg>");
