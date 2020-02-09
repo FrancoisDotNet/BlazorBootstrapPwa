@@ -6235,7 +6235,7 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex, span {
+.d-flex, i {
   display: flex !important;
 }
 
@@ -6525,7 +6525,7 @@ button.bg-dark:focus {
   justify-content: flex-end !important;
 }
 
-.justify-content-center, span {
+.justify-content-center, i {
   justify-content: center !important;
 }
 
@@ -6545,7 +6545,7 @@ button.bg-dark:focus {
   align-items: flex-end !important;
 }
 
-.align-items-center, span {
+.align-items-center, i {
   align-items: center !important;
 }
 
@@ -9877,11 +9877,11 @@ h3 {
 }
 /* @import "fontawesome/fontawesome";
 @import "fontawesome/solid"; */
-html, body, span {
+html, body, i {
   height: 100%;
 }
 
-.bi-document-spreadsheet, span {
+.bi-document-spreadsheet, i {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg fill=%22currentColor%22 viewBox=%220 0 20 20%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath d=%22M6 3h8a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2zm0 1a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V5a1 1 0 00-1-1H6z%22 /%3E%3Cpath d=%22M15 8H5V7h10v1zm0 3H5v-1h10v1zm0 3H5v-1h10v1z%22 /%3E%3Cpath d=%22M7 16V8h1v8H7zm4 0V8h1v8h-1z%22 /%3E%3C/svg%3E");
   height: 10em;
   width: 10em;
