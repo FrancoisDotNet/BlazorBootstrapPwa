@@ -12,8 +12,7 @@ body {
 }
 
 i {
-    @extend .d-flex, .justify-content-center, .align-items-center;
-    @extend .bi-document-spreadsheet;
+    @extend .d-flex, .justify-content-center, .align-items-center, .bi-document-spreadsheet;
 }
 
 .bi-document-spreadsheet {
