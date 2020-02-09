@@ -2,11 +2,6 @@ table, tbody, textarea {
     height: 100%;
 }
 
-.bi-pencil, .bi-gear {
-    @extend .btn-light;
-    background-repeat: no-repeat;
-}
-
 table {
     @extend .table;
     @extend .table-dark;
@@ -24,6 +19,12 @@ button {
 
 textarea {
     @extend .form-control;
+}
+
+.bi-pencil, .bi-gear {
+    @extend .btn-light;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .bi-pencil {
