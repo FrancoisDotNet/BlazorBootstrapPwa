@@ -17,7 +17,7 @@ $encodings: (
 
 // Returns background-image property value for icon.
 @function get-icon($content, $viewBox) {
-  $svg: '<svg viewBox="' + $viewBox + '" xmlns="http://www.w3.org/2000/svg">' + $content + '</svg>';
+  $svg: '<svg viewBox="' + $viewBox + '" xmlns="http://www.w3.org/2000/svg width="1em" height="1em"">' + $content + '</svg>';
   @each $char, $encoded in $encodings {
     $svg: str-replace($svg, $char, $encoded);
   }
