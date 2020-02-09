@@ -22,10 +22,13 @@ textarea {
 }
 
 .bi-pencil {
+    @extend .btn-light;
     background-image: get-icon-bi-pencil(#343a40);
-    background-repeat: no-repeat;
-    background-position: center;
-    display:block;
+}
+
+.bi-pencil {
+    @extend .btn-light;
+    background-image: get-icon-bi-pencil(#343a40);
 }
 
 /* .fa-edit, .fa-exchange-alt {
