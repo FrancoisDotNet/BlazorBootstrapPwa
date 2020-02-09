@@ -12,30 +12,13 @@ body {
 }
 
 figure {
-    @extend .d-flex, .justify-content-center, .align-items-center, .text-success;
-    @extend .bi;
-    //.fas, .fa-table;
-
-
-}
-
-img {
-    fill: green;
+    @extend .d-flex, .justify-content-center, .align-items-center;
+    @extend .bi-document-spreadsheet;
 }
 
 .bi-document-spreadsheet {
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' ><path fill-rule='evenodd d='M6 3h8a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2zm0 1a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V5a1 1 0 00-1-1H6z' clip-rule='evenodd'/><path fill-rule='evenodd' d='M15 8H5V7h10v1zm0 3H5v-1h10v1zm0 3H5v-1h10v1z' clip-rule='evenodd'/><path fill-rule='evenodd' d='M7 16V8h1v8H7zm4 0V8h1v8h-1z' clip-rule='evenodd'/></svg>");
+    background-image:url('data:image/svg+xml;charset=utf-8,%3Csvg fill=%22currentColor%22 viewBox=%220 0 20 20%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath d=%22M6 3h8a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2zm0 1a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V5a1 1 0 00-1-1H6z%22 /%3E%3Cpath d=%22M15 8H5V7h10v1zm0 3H5v-1h10v1zm0 3H5v-1h10v1z%22 /%3E%3Cpath d=%22M7 16V8h1v8H7zm4 0V8h1v8h-1z%22 /%3E%3C/svg%3E');
     height:10em;
     width:10em;
-    fill: green;
-  }
-
-
-
-.bi {
-    display: inline-block;
-    content: "";
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%23333' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/></svg>");
-    background-repeat: no-repeat;
-    background-size: 1rem 1rem;
-  }
+    filter: invert(62%) sepia(76%) saturate(3991%) hue-rotate(96deg) brightness(93%) contrast(69%);
+}
