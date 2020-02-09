@@ -2,6 +2,11 @@ table, tbody, textarea {
     height: 100%;
 }
 
+.bi-pencil, .bi-gear {
+    @extend .btn-light;
+    background-repeat: no-repeat;
+}
+
 table {
     @extend .table;
     @extend .table-dark;
@@ -22,13 +27,11 @@ textarea {
 }
 
 .bi-pencil {
-    @extend .btn-light;
     background-image: get-icon-bi-pencil(#343a40);
 }
 
-.bi-pencil {
-    @extend .btn-light;
-    background-image: get-icon-bi-pencil(#343a40);
+.bi-gear {
+    background-image: get-icon-bi-gear(#343a40);
 }
 
 /* .fa-edit, .fa-exchange-alt {
