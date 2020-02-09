@@ -9958,6 +9958,8 @@ table, tbody, textarea {
 .bi-pencil, .bi-gear {
   background-repeat: no-repeat;
   background-position: center;
+  height: 1em;
+  width: 1em;
 }
 
 .bi-pencil {

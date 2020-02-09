@@ -25,6 +25,8 @@ textarea {
     @extend .btn-light;
     background-repeat: no-repeat;
     background-position: center;
+    height: 1em;
+    width: 1em;
 }
 
 .bi-pencil {
