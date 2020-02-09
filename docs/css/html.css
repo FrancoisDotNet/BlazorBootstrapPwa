@@ -6013,7 +6013,7 @@ button.bg-secondary:focus {
   background-color: #545b62 !important;
 }
 
-.bg-success {
+.bg-success, body {
   background-color: #28a745 !important;
 }
 
@@ -6063,7 +6063,7 @@ button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
 
-.bg-dark, body {
+.bg-dark {
   background-color: #343a40 !important;
 }
 
@@ -9879,10 +9879,6 @@ h3 {
 @import "fontawesome/solid"; */
 html, body, i {
   height: 100%;
-}
-
-i {
-  background-color: #28a745;
 }
 
 .bi-document-spreadsheet, i {

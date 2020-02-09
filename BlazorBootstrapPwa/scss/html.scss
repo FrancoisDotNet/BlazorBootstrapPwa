@@ -8,12 +8,11 @@ html, body, i {
 }
 
 body {
-    @extend .bg-dark;
+    @extend .bg-success;
 }
 
 i {
     @extend .d-flex, .justify-content-center, .align-items-center, .bi-document-spreadsheet;
-    background-color: #28a745;
 }
 
 .bi-document-spreadsheet {
