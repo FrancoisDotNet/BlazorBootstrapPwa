@@ -25,7 +25,7 @@ $encodings: (
 }
 
 // Function to generate the circle icon.
-@function get-icon-circle ($fill) {
+@function get-icon-bi-document-spreadsheet ($fill) {
     $content: '<path fill="#{$fill}" d="M6 3h8a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2zm0 1a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V5a1 1 0 00-1-1H6z"/><path fill="#{$fill}" d="M15 8H5V7h10v1zm0 3H5v-1h10v1zm0 3H5v-1h10v1z"/><path fill="#{$fill}" d="M7 16V8h1v8H7zm4 0V8h1v8h-1z"/>';
     @return get-icon($content, '0 0 20 20');
 }
