@@ -4,14 +4,12 @@
 @import "fontawesome/solid"; */
 //@import "table";
 
-html, body {
-    @extend .bg-success;
+html, body, i{
     height: 100%;
 }
 
 i {
     @extend .bi-document-spreadsheet;
-    height: 100%;
 }
 
 .bi-document-spreadsheet {
