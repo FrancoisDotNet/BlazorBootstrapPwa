@@ -9895,6 +9895,7 @@ i {
 
 /* .bi-document-spreadsheet {
     background-image:url('data:image/svg+xml;charset=utf-8,%3Csvg fill=%22currentColor%22 viewBox=%220 0 20 20%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath d=%22M6 3h8a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2zm0 1a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V5a1 1 0 00-1-1H6z%22 /%3E%3Cpath d=%22M15 8H5V7h10v1zm0 3H5v-1h10v1zm0 3H5v-1h10v1z%22 /%3E%3Cpath d=%22M7 16V8h1v8H7zm4 0V8h1v8h-1z%22 /%3E%3C/svg%3E');
+                          data:image/svg+xml;charset=utf-8,%3Csvg viewBox=%220 0 20 20%22 xmlns=%22ht…th fill=%22%23f8f9fa%22 d=%22M7 16V8h1v8H7zm4 0V8h1v8h-1z%22/%3E%3C/svg%3E
     background-repeat: no-repeat;
     background-position: center;
     filter: invert(100%) sepia(4%) saturate(3710%) hue-rotate(84deg) brightness(108%) contrast(96%);
