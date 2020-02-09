@@ -6235,7 +6235,7 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex, i {
+.d-flex {
   display: flex !important;
 }
 
@@ -6525,7 +6525,7 @@ button.bg-dark:focus {
   justify-content: flex-end !important;
 }
 
-.justify-content-center, i {
+.justify-content-center {
   justify-content: center !important;
 }
 
@@ -6545,7 +6545,7 @@ button.bg-dark:focus {
   align-items: flex-end !important;
 }
 
-.align-items-center, i {
+.align-items-center {
   align-items: center !important;
 }
 

@@ -9,10 +9,11 @@ html, body, i {
 
 body {
     @extend .bg-success;
+    //.d-flex, .justify-content-center, .align-items-center,
 }
 
 i {
-    @extend .d-flex, .justify-content-center, .align-items-center, .bi-document-spreadsheet;
+    @extend .bi-document-spreadsheet;
 }
 
 .bi-document-spreadsheet {
