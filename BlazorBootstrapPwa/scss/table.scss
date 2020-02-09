@@ -15,14 +15,20 @@ div {
 
 button {
     @extend .btn;
-    @extend .fas;
 }
 
 textarea {
     @extend .form-control;
 }
 
-.fa-edit, .fa-exchange-alt {
+.bi-pencil {
+    background-image: get-icon-bi-pencil(#343a40);
+    background-repeat: no-repeat;
+    background-position: center;
+    display:block;
+}
+
+/* .fa-edit, .fa-exchange-alt {
     @extend .btn-light;
 }
 
@@ -32,7 +38,7 @@ textarea {
 
 .fa-check {
     @extend .btn-success;
-}
+} */
 
 div + .btn-block {
     margin-top: 0;
