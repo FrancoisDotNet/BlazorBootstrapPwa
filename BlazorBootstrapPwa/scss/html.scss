@@ -6,7 +6,7 @@ html, body, i {
     height: 100%;
 }
 
-i {
+body > i {
     @extend .bi-document-spreadsheet;
 }
 
