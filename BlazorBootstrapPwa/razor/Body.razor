@@ -7,7 +7,9 @@
         <tr>
             <th scope="col">
                 <div role="group" aria-label="Menu" class="@(IsEdit ? "d-none" : "")">
-                    <button type="button" @onclick="Edit" class="bi-pencil" title="Edit"></button>
+                    <button type="button" @onclick="Edit" title="Edit">
+                        <i class="bi-pencil"></i>
+                    </button>
                     <button type="button" @onclick="Transfer" class="bi-gear-fill" title="Transfer"></button>
                 </div>
                 <div role="group" aria-label="Menu" class="@(IsEdit ? "" : "d-none")">
