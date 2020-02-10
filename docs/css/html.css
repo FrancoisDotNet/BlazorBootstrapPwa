@@ -9957,7 +9957,7 @@ table, tbody, textarea {
 
 .bi-pencil, .bi-gear-fill {
   background-repeat: no-repeat;
-  display: inline-block;
+  background-position: center;
   background-size: 1.5em;
   height: 2.25em;
   width: 2.25em;
