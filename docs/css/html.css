@@ -9957,10 +9957,10 @@ table, tbody, textarea {
 
 .bi-pencil, .bi-gear-fill {
   background-repeat: no-repeat;
-  background-position: center;
   display: inline-block;
-  height: 1.5em;
-  width: 1.5em;
+  background-size: 1.5em;
+  height: calc(2.25em+1px);
+  width: calc(2.25em+1px);
 }
 
 .bi-pencil {
