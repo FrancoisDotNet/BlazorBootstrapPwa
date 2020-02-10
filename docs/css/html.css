@@ -9958,9 +9958,9 @@ table, tbody, textarea {
 .bi-pencil, .bi-gear-fill {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1.5em;
-  height: 2.25em;
-  width: 2.25em;
+  background-size: 24px;
+  height: 38px;
+  width: 38px;
 }
 
 .bi-pencil {
