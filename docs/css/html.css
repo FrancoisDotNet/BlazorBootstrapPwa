@@ -9959,6 +9959,8 @@ table, tbody, textarea {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
+  height: 1.33em;
+  width: 1.33em;
 }
 
 .bi-pencil {
