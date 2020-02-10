@@ -10,7 +10,9 @@
                     <button type="button" @onclick="Edit" title="Edit">
                         <i class="bi-pencil"></i>
                     </button>
-                    <button type="button" @onclick="Transfer" class="bi-gear-fill" title="Transfer"></button>
+                    <button type="button" @onclick="Transfer" title="Transfer">
+                        <i class="bi-gear-fill"></i>
+                    </button>
                 </div>
                 <div role="group" aria-label="Menu" class="@(IsEdit ? "" : "d-none")">
                     <button type="button" @onclick="Cancel" class="fa-times" title="Cancel"></button>

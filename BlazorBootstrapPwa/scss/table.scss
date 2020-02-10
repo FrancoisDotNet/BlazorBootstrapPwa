@@ -15,6 +15,7 @@ div {
 
 button {
     @extend .btn;
+    @extend .btn-light;
 }
 
 textarea {
@@ -22,7 +23,6 @@ textarea {
 }
 
 .bi-pencil, .bi-gear-fill {
-    @extend .btn-light;
     background-repeat: no-repeat;
     background-position: center;
     height: 1em;

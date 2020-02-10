@@ -2615,33 +2615,33 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
 }
 
-.btn-light, .bi-pencil, .bi-gear-fill {
+.btn-light, button {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
-.btn-light:hover, .bi-pencil:hover, .bi-gear-fill:hover {
+.btn-light:hover, button:hover {
   color: #212529;
   background-color: #e2e6ea;
   border-color: #dae0e5;
 }
-.btn-light:focus, .bi-pencil:focus, .bi-gear-fill:focus, .btn-light.focus, .focus.bi-pencil, .focus.bi-gear-fill {
+.btn-light:focus, button:focus, .btn-light.focus, button.focus {
   color: #212529;
   background-color: #e2e6ea;
   border-color: #dae0e5;
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
 }
-.btn-light.disabled, .disabled.bi-pencil, .disabled.bi-gear-fill, .btn-light:disabled, .bi-pencil:disabled, .bi-gear-fill:disabled {
+.btn-light.disabled, button.disabled, .btn-light:disabled, button:disabled {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
-.btn-light:not(:disabled):not(.disabled):active, .bi-pencil:not(:disabled):not(.disabled):active, .bi-gear-fill:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, tr + .btn-light.primary:not(:disabled):not(.disabled), .bi-pencil:not(:disabled):not(.disabled).active, tr + .bi-pencil.primary:not(:disabled):not(.disabled), .bi-gear-fill:not(:disabled):not(.disabled).active, tr + .bi-gear-fill.primary:not(:disabled):not(.disabled), .show > .btn-light.dropdown-toggle, .show > .dropdown-toggle.bi-pencil, .show > .dropdown-toggle.bi-gear-fill {
+.btn-light:not(:disabled):not(.disabled):active, button:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, tr + .btn-light.primary:not(:disabled):not(.disabled), button:not(:disabled):not(.disabled).active, tr + button.primary:not(:disabled):not(.disabled), .show > .btn-light.dropdown-toggle, .show > button.dropdown-toggle {
   color: #212529;
   background-color: #dae0e5;
   border-color: #d3d9df;
 }
-.btn-light:not(:disabled):not(.disabled):active:focus, .bi-pencil:not(:disabled):not(.disabled):active:focus, .bi-gear-fill:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, tr + .btn-light.primary:not(:disabled):not(.disabled):focus, .bi-pencil:not(:disabled):not(.disabled).active:focus, tr + .bi-pencil.primary:not(:disabled):not(.disabled):focus, .bi-gear-fill:not(:disabled):not(.disabled).active:focus, tr + .bi-gear-fill.primary:not(:disabled):not(.disabled):focus, .show > .btn-light.dropdown-toggle:focus, .show > .dropdown-toggle.bi-pencil:focus, .show > .dropdown-toggle.bi-gear-fill:focus {
+.btn-light:not(:disabled):not(.disabled):active:focus, button:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, tr + .btn-light.primary:not(:disabled):not(.disabled):focus, button:not(:disabled):not(.disabled).active:focus, tr + button.primary:not(:disabled):not(.disabled):focus, .show > .btn-light.dropdown-toggle:focus, .show > button.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
 }
 
