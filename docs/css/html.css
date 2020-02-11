@@ -2495,33 +2495,33 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
 }
 
-.btn-success {
+.btn-success, .bi-check {
   color: #fff;
   background-color: #28a745;
   border-color: #28a745;
 }
-.btn-success:hover {
+.btn-success:hover, .bi-check:hover {
   color: #fff;
   background-color: #218838;
   border-color: #1e7e34;
 }
-.btn-success:focus, .btn-success.focus {
+.btn-success:focus, .bi-check:focus, .btn-success.focus, .focus.bi-check {
   color: #fff;
   background-color: #218838;
   border-color: #1e7e34;
   box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
 }
-.btn-success.disabled, .btn-success:disabled {
+.btn-success.disabled, .disabled.bi-check, .btn-success:disabled, .bi-check:disabled {
   color: #fff;
   background-color: #28a745;
   border-color: #28a745;
 }
-.btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, tr + .btn-success.primary:not(:disabled):not(.disabled), .show > .btn-success.dropdown-toggle {
+.btn-success:not(:disabled):not(.disabled):active, .bi-check:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, tr + .btn-success.primary:not(:disabled):not(.disabled), .bi-check:not(:disabled):not(.disabled).active, tr + .bi-check.primary:not(:disabled):not(.disabled), .show > .btn-success.dropdown-toggle, .show > .dropdown-toggle.bi-check {
   color: #fff;
   background-color: #1e7e34;
   border-color: #1c7430;
 }
-.btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus, tr + .btn-success.primary:not(:disabled):not(.disabled):focus, .show > .btn-success.dropdown-toggle:focus {
+.btn-success:not(:disabled):not(.disabled):active:focus, .bi-check:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus, tr + .btn-success.primary:not(:disabled):not(.disabled):focus, .bi-check:not(:disabled):not(.disabled).active:focus, tr + .bi-check.primary:not(:disabled):not(.disabled):focus, .show > .btn-success.dropdown-toggle:focus, .show > .dropdown-toggle.bi-check:focus {
   box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
 }
 
@@ -2585,63 +2585,63 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
 }
 
-.btn-danger {
+.btn-danger, .bi-x {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
 }
-.btn-danger:hover {
+.btn-danger:hover, .bi-x:hover {
   color: #fff;
   background-color: #c82333;
   border-color: #bd2130;
 }
-.btn-danger:focus, .btn-danger.focus {
+.btn-danger:focus, .bi-x:focus, .btn-danger.focus, .focus.bi-x {
   color: #fff;
   background-color: #c82333;
   border-color: #bd2130;
   box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
 }
-.btn-danger.disabled, .btn-danger:disabled {
+.btn-danger.disabled, .disabled.bi-x, .btn-danger:disabled, .bi-x:disabled {
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
 }
-.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active, tr + .btn-danger.primary:not(:disabled):not(.disabled), .show > .btn-danger.dropdown-toggle {
+.btn-danger:not(:disabled):not(.disabled):active, .bi-x:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active, tr + .btn-danger.primary:not(:disabled):not(.disabled), .bi-x:not(:disabled):not(.disabled).active, tr + .bi-x.primary:not(:disabled):not(.disabled), .show > .btn-danger.dropdown-toggle, .show > .dropdown-toggle.bi-x {
   color: #fff;
   background-color: #bd2130;
   border-color: #b21f2d;
 }
-.btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus, tr + .btn-danger.primary:not(:disabled):not(.disabled):focus, .show > .btn-danger.dropdown-toggle:focus {
+.btn-danger:not(:disabled):not(.disabled):active:focus, .bi-x:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus, tr + .btn-danger.primary:not(:disabled):not(.disabled):focus, .bi-x:not(:disabled):not(.disabled).active:focus, tr + .bi-x.primary:not(:disabled):not(.disabled):focus, .show > .btn-danger.dropdown-toggle:focus, .show > .dropdown-toggle.bi-x:focus {
   box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
 }
 
-.btn-light, button {
+.btn-light, .bi-pencil, .bi-gear-fill {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
-.btn-light:hover, button:hover {
+.btn-light:hover, .bi-pencil:hover, .bi-gear-fill:hover {
   color: #212529;
   background-color: #e2e6ea;
   border-color: #dae0e5;
 }
-.btn-light:focus, button:focus, .btn-light.focus, button.focus {
+.btn-light:focus, .bi-pencil:focus, .bi-gear-fill:focus, .btn-light.focus, .focus.bi-pencil, .focus.bi-gear-fill {
   color: #212529;
   background-color: #e2e6ea;
   border-color: #dae0e5;
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
 }
-.btn-light.disabled, button.disabled, .btn-light:disabled, button:disabled {
+.btn-light.disabled, .disabled.bi-pencil, .disabled.bi-gear-fill, .btn-light:disabled, .bi-pencil:disabled, .bi-gear-fill:disabled {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
-.btn-light:not(:disabled):not(.disabled):active, button:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, tr + .btn-light.primary:not(:disabled):not(.disabled), button:not(:disabled):not(.disabled).active, tr + button.primary:not(:disabled):not(.disabled), .show > .btn-light.dropdown-toggle, .show > button.dropdown-toggle {
+.btn-light:not(:disabled):not(.disabled):active, .bi-pencil:not(:disabled):not(.disabled):active, .bi-gear-fill:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, tr + .btn-light.primary:not(:disabled):not(.disabled), .bi-pencil:not(:disabled):not(.disabled).active, tr + .bi-pencil.primary:not(:disabled):not(.disabled), .bi-gear-fill:not(:disabled):not(.disabled).active, tr + .bi-gear-fill.primary:not(:disabled):not(.disabled), .show > .btn-light.dropdown-toggle, .show > .dropdown-toggle.bi-pencil, .show > .dropdown-toggle.bi-gear-fill {
   color: #212529;
   background-color: #dae0e5;
   border-color: #d3d9df;
 }
-.btn-light:not(:disabled):not(.disabled):active:focus, button:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, tr + .btn-light.primary:not(:disabled):not(.disabled):focus, button:not(:disabled):not(.disabled).active:focus, tr + button.primary:not(:disabled):not(.disabled):focus, .show > .btn-light.dropdown-toggle:focus, .show > button.dropdown-toggle:focus {
+.btn-light:not(:disabled):not(.disabled):active:focus, .bi-pencil:not(:disabled):not(.disabled):active:focus, .bi-gear-fill:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, tr + .btn-light.primary:not(:disabled):not(.disabled):focus, .bi-pencil:not(:disabled):not(.disabled).active:focus, tr + .bi-pencil.primary:not(:disabled):not(.disabled):focus, .bi-gear-fill:not(:disabled):not(.disabled).active:focus, tr + .bi-gear-fill.primary:not(:disabled):not(.disabled):focus, .show > .btn-light.dropdown-toggle:focus, .show > .dropdown-toggle.bi-pencil:focus, .show > .dropdown-toggle.bi-gear-fill:focus {
   box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
 }
 
@@ -9955,7 +9955,7 @@ table, tbody, textarea {
   height: 100%;
 }
 
-.bi-pencil, .bi-gear-fill {
+button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 24px;
@@ -9971,17 +9971,14 @@ table, tbody, textarea {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox=%220 0 20 20%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath fill=%22%23343a40%22 d=%22M11.405 3.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 01-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 01.872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 012.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 012.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 01.872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 01-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 01-2.105-.872l-.1-.34zM10 12.93a2.929 2.929 0 100-5.858 2.929 2.929 0 000 5.858z%22 /%3E%3C/svg%3E");
 }
 
-/* .fa-edit, .fa-exchange-alt {
-    @extend .btn-light;
+.bi-x {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox=%220 0 20 20%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath fill=%22%23343a40%22 d=%22M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z%22 /%3E%3Cpath fill=%22%23343a40%22 d=%22M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z%22 /%3E%3C/svg%3E");
 }
 
-.fa-times {
-    @extend .btn-danger;
+.bi-check {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox=%220 0 20 20%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath fill=%22%23343a40%22 d=%22M15.854 5.646a.5.5 0 010 .708l-7 7a.5.5 0 01-.708 0l-3.5-3.5a.5.5 0 11.708-.708L8.5 12.293l6.646-6.647a.5.5 0 01.708 0z%22 /%3E%3C/svg%3E");
 }
 
-.fa-check {
-    @extend .btn-success;
-} */
 div + .btn-block, div + div {
   margin-top: 0;
 }

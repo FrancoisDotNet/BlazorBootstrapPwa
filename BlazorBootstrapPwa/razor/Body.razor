@@ -11,8 +11,8 @@
                     <button type="button" @onclick="Transfer" title="Transfer" class="bi-gear-fill"></button>
                 </div>
                 <div role="group" aria-label="Menu" class="@(IsEdit ? "" : "d-none")">
-                    <button type="button" @onclick="Cancel" class="fa-times" title="Cancel"></button>
-                    <button type="button" @onclick="Save" class="fa-check" title="Save"></button>
+                    <button type="button" @onclick="Cancel" class="bi-x" title="Cancel"></button>
+                    <button type="button" @onclick="Save" class="bi-check" title="Save"></button>
                 </div>
             </th>
             <th scope="col" class="@(IsTransfer ? "d-none" : "")">

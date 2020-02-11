@@ -15,7 +15,11 @@ div {
 
 button {
     @extend .btn;
-    @extend .btn-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    height: 38px;
+    width: 38px;
 }
 
 textarea {
@@ -23,11 +27,7 @@ textarea {
 }
 
 .bi-pencil, .bi-gear-fill {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px;
-    height: 38px;
-    width: 38px;
+    @extend .btn-light;
 }
 
 .bi-pencil {
@@ -38,17 +38,15 @@ textarea {
     background-image: get-icon-bi-gear-fill(#343a40);
 }
 
-/* .fa-edit, .fa-exchange-alt {
-    @extend .btn-light;
-}
-
-.fa-times {
+.bi-x {
     @extend .btn-danger;
+    background-image: get-icon-bi-x(#343a40);
 }
 
-.fa-check {
+.bi-check {
     @extend .btn-success;
-} */
+    background-image: get-icon-bi-check(#343a40);
+}
 
 div + .btn-block {
     margin-top: 0;
