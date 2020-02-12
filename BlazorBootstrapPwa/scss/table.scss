@@ -40,7 +40,7 @@ textarea {
 
 .bi-x {
     @extend .btn-danger;
-    background-image: get-icon-bi-x(#343a40);
+    background-image: get-icon-bi-x(#343a40,none,5);
 }
 
 .bi-check {

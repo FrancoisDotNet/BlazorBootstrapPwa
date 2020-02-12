@@ -40,7 +40,7 @@ $encodings: (
   @return get-icon($content, '0 0 20 20');
 }
 
-@function get-icon-bi-x ($fill) {
+@function get-icon-bi- ($fill) {
   $content: '<path fill="#{$fill}" d="M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z" /><path fill="#{$fill}" d="M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z" />';
   @return get-icon($content, '0 0 20 20');
 }
@@ -50,3 +50,7 @@ $encodings: (
   @return get-icon($content, '0 0 20 20');
 }
 
+@function get-icon-bi-x ($fill, $stroke: 'none', $stroke-width: 0) {
+  $content: '<path fill="#{$fill}" stroke="#{$stroke}" stroke-width="#{$stroke-width}" d="M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z" /><path fill="#{$fill}" stroke="#{$stroke}" stroke-width="#{$stroke-width}" d="M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z" />';
+  @return get-icon($content, '0 0 20 20');
+}

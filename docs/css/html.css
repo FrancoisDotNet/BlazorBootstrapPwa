@@ -9972,7 +9972,7 @@ button {
 }
 
 .bi-x {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox=%220 0 20 20%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath fill=%22%23343a40%22 d=%22M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z%22 /%3E%3Cpath fill=%22%23343a40%22 d=%22M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z%22 /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox=%220 0 20 20%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath fill=%22%23343a40%22 stroke=%22none%22 stroke-width=%225%22 d=%22M5.646 5.646a.5.5 0 000 .708l8 8a.5.5 0 00.708-.708l-8-8a.5.5 0 00-.708 0z%22 /%3E%3Cpath fill=%22%23343a40%22 stroke=%22none%22 stroke-width=%225%22 d=%22M14.354 5.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z%22 /%3E%3C/svg%3E");
 }
 
 .bi-check {
