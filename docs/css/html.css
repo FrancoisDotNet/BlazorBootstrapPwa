@@ -6136,7 +6136,7 @@ button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
 
-.bg-dark {
+.bg-dark, html {
   background-color: #343a40 !important;
 }
 

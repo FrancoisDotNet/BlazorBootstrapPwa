@@ -8,6 +8,7 @@ html, body {
 
 html {
     @extend .container;
+    @extend .bg-dark;
 }
 
 body {
