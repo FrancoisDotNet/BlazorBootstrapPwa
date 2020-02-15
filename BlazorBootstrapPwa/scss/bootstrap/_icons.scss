@@ -16,8 +16,8 @@ $encodings: (
 }
 
 // Returns background-image property value for icon.
-@function get-icon($content, $stroke, $stroke-width) {
-  $svg: '<svg stroke="' + $stroke + '" stroke-width="' + $stroke-width + '" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">' + $content + '</svg>';
+@function get-icon($content, $fill, $stroke, $stroke-width) {
+  $svg: '<svg fill="' + $fill + '" stroke="' + $stroke + '" stroke-width="' + $stroke-width + '" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">' + $content + '</svg>';
   @each $char, $encoded in $encodings {
     $svg: str-replace($svg, $char, $encoded);
   }
@@ -34,9 +34,9 @@ $encodings: (
 } */
 
 // Functions to generate icons.
-@function get-icon-bi-document-spreadsheet ($stroke:'#343a40', $stroke-width:1) {
+@function get-icon-bi-document-spreadsheet ($fill:'#f8f9fa', $stroke:'none', $stroke-width:0) {
   $content: '<path d="M6 3h8a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2zm0 1a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V5a1 1 0 00-1-1H6z"/><path d="M15 8H5V7h10v1zm0 3H5v-1h10v1zm0 3H5v-1h10v1z"/><path d="M7 16V8h1v8H7zm4 0V8h1v8h-1z"/>';
-  @return get-icon($content, $stroke, $stroke-width);
+  @return get-icon($content, $fill, $stroke, $stroke-width);
 }
 
 
