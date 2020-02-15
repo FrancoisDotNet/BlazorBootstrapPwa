@@ -31,21 +31,21 @@ textarea {
 }
 
 .bi-pencil {
-    background-image: get-icon-bi-pencil(#343a40);
+    background-image: get-icon-bi-pencil();
 }
 
 .bi-gear-fill {
-    background-image: get-icon-bi-gear-fill(#343a40);
+    background-image: get-icon-bi-gear-fill();
 }
 
 .bi-x {
     @extend .btn-danger;
-    background-image: get-icon-bi-x(#343a40,none,5);
+    background-image: get-icon-bi-x();
 }
 
 .bi-check {
     @extend .btn-success;
-    background-image: get-icon-bi-check(#343a40);
+    background-image: get-icon-bi-check();
 }
 
 div + .btn-block {
