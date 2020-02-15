@@ -17,7 +17,7 @@ $encodings: (
 
 // Returns background-image property value for icon.
 @function get-icon($content, $fill, $stroke, $stroke-width) {
-  $svg: '<svg stroke="' + $fill + '" stroke="' + $stroke + '" stroke-width="' + $stroke-width + '" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">' + $content + '</svg>';
+  $svg: '<svg fill="' + $fill + '" stroke="' + $stroke + '" stroke-width="' + $stroke-width + '" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">' + $content + '</svg>';
   @each $char, $encoded in $encodings {
     $svg: str-replace($svg, $char, $encoded);
   }
