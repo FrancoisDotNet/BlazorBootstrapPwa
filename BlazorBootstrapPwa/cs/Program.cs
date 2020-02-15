@@ -1,18 +1,17 @@
 ﻿using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Blazor.Hosting;
-using Microsoft.AspNetCore.Components.Builder;
-using Microsoft.Extensions.DependencyInjection;
+using System.Threading.Tasks;
 
 namespace BlazorBootstrapPwa
 {
     class Program
     {
-        static void Main() => BlazorWebAssemblyHost.CreateDefaultBuilder().UseBlazorStartup<Startup>().Build().Run();
-    
-        class Startup
-        {
-            public void ConfigureServices(IServiceCollection c) => c.AddBlazoredLocalStorage();
-            public void Configure(IComponentsApplicationBuilder b) => b.AddComponent<razor.Body>("body");
+        public static async Task Main()
+        {   
+            var builder = WebAssemblyHostBuilder.CreateDefault();
+            builder.RootComponents.Add<razor.Body>("body");
+            builder.Services.AddBlazoredLocalStorage();
+            await builder.Build().RunAsync();
         }
     }
 }
