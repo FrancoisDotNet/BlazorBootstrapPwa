@@ -1,11 +1,6 @@
 @import "bootstrap/bootstrap";
 @import "bootstrap/icons";
-@import "table";
-
-html, body {
-    @extend .h-100;
-    padding: 15px;
-}
+//@import "table";
 
 html {
     @extend .container;
@@ -13,9 +8,55 @@ html {
 }
 
 body {
-    @extend .jumbotron;
-    @extend .bi-document-spreadsheet;
+    @extend .row;
+    @extend .text-right;
 }
+
+section {
+    @extend .col-sm;
+    @extend .p-0;
+}
+
+article {
+    @extend .card;
+    @extend .alert-light;
+    @extend .m-3;
+}
+
+div {
+    @extend .card-body;
+}
+
+h1 {
+    @extend .display-4;
+}
+
+h2 > span {
+    @extend .badge;
+    @extend .badge-secondary;
+}
+
+p {
+    @extend .lead;
+    @extend .text-left;
+}
+
+footer {
+    @extend .progress;
+}
+
+footer > span {
+    @extend .progress-bar;
+    @extend .progress-bar-striped;
+    @extend .progress-bar-animated;
+    @extend .bg-secondary;
+
+    width: 100%;
+}
+
+
+
+
 
 .bi-document-spreadsheet {
     background-image: get-icon-bi-document-spreadsheet();
