@@ -3,24 +3,19 @@
 //@import "table";
 
 html {
-    @extend .container;
-    @extend .bg-dark;
+    @extend .container, .bg-dark;
 }
 
 body {
-    @extend .row;
-    @extend .text-right;
+    @extend .row, .text-right;
 }
 
 section {
-    @extend .col-sm;
-    @extend .p-0;
+    @extend .col-md-6, .col-lg-4, .col-xl-3, .p-0;
 }
 
 article {
-    @extend .card;
-    @extend .alert-light;
-    @extend .m-3;
+    @extend .card, .alert-light, .m-3;
 }
 
 div {
@@ -32,13 +27,11 @@ h1 {
 }
 
 h2 > span {
-    @extend .badge;
-    @extend .badge-secondary;
+    @extend .badge, .badge-secondary;
 }
 
 p {
-    @extend .lead;
-    @extend .text-left;
+    @extend .lead, .text-left;
 }
 
 footer {
@@ -46,11 +39,7 @@ footer {
 }
 
 footer > span {
-    @extend .progress-bar;
-    @extend .progress-bar-striped;
-    @extend .progress-bar-animated;
-    @extend .bg-secondary;
-
+    @extend .progress-bar, .progress-bar-striped, .progress-bar-animated, .bg-secondary;
     width: 100%;
 }
 
